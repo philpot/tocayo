@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/c45/R8/Doc"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="c4.5rules.1"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="verbose.1"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consult.1"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="c4.5.1"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consultr.1"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="verbrules.1"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

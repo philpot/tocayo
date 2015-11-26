@@ -1,0 +1,1913 @@
+
+C4.5 [release 8] rule generator	Mon Jul 12 22:41:31 2004
+-------------------------------
+
+    Options:
+	File stem <gms>
+
+Read 1176 cases (12 attributes) from gms
+
+------------------
+Processing tree 0
+
+Final rules from tree 0:
+
+Rule 122:
+    	initsound = K
+    	finalsound = IY
+    	initvowel = EH
+	->  class girlswinning  [89.1%]
+
+Rule 102:
+    	initsound = AE
+    	finalsound = IY
+    	syllables = 2
+	->  class girlswinning  [82.0%]
+
+Rule 268:
+    	origin = A3
+	->  class girlswinning  [75.8%]
+
+Rule 121:
+    	initsound = K
+    	finalsound = IY
+    	initvowel = AO
+	->  class girlswinning  [70.7%]
+
+Rule 142:
+    	initsound = S
+    	finalsound = IY
+    	initvowel = EY
+	->  class girlswinning  [70.7%]
+
+Rule 143:
+    	initsound = S
+    	finalsound = IY
+    	initvowel = IH
+    	syllables = 2
+	->  class girlswinning  [70.7%]
+
+Rule 291:
+    	finalsound = AH
+    	initvowel = IY
+    	finalconsonant = R
+    	syllables = 3
+	->  class girlswinning  [70.7%]
+
+Rule 119:
+    	initsound = JH
+    	finalsound = IY
+    	initvowel = OW
+	->  class girlswinning  [63.0%]
+
+Rule 126:
+    	initsound = L
+    	finalsound = IY
+    	initvowel = EH
+	->  class girlswinning  [63.0%]
+
+Rule 129:
+    	initsound = L
+    	finalsound = IY
+    	finalconsonant = Z
+	->  class girlswinning  [63.0%]
+
+Rule 145:
+    	initsound = SH
+    	finalconsonant = B
+	->  class girlswinning  [63.0%]
+
+Rule 160:
+    	initsound = M
+    	finalsound = L
+    	initvowel = EH
+    	syllables = 2
+	->  class girlswinning  [63.0%]
+
+Rule 178:
+    	initsound = D
+    	finalsound = N
+    	initvowel = EH
+    	finalvowel = AH
+	->  class girlswinning  [63.0%]
+
+Rule 99:
+    	initvowel = EY
+    	initletter = T
+	->  class girlswinning  [61.2%]
+
+Rule 206:
+    	initsound = M
+    	origin = CY
+	->  class girlswinning  [50.0%]
+
+Rule 309:
+    	finalconsonant = ER
+    	initletter = M
+    	syllables = 3
+	->  class girlswinning  [50.0%]
+
+Rule 311:
+    	finalsound = IY
+    	finalconsonant = Z
+    	syllables = 3
+	->  class girlswinning  [50.0%]
+
+Rule 212:
+    	initsound = R
+    	finalsound = N
+	->  class girlswinning  [49.6%]
+
+Rule 30:
+    	initletter = S
+    	syllables = 1
+	->  class trueunisex  [85.7%]
+
+Rule 7:
+    	initsound = R
+    	finalsound = EY
+    	syllables = 1
+	->  class trueunisex  [84.1%]
+
+Rule 140:
+    	initsound = R
+    	finalsound = IY
+    	initvowel = IH
+	->  class trueunisex  [84.1%]
+
+Rule 9:
+    	finalsound = IY
+    	syllables = 1
+	->  class trueunisex  [79.4%]
+
+Rule 123:
+    	initsound = K
+    	finalsound = IY
+    	initvowel = EY
+	->  class trueunisex  [79.4%]
+
+Rule 139:
+    	initsound = R
+    	finalsound = IY
+    	initvowel = AY
+	->  class trueunisex  [79.4%]
+
+Rule 118:
+    	initsound = JH
+    	finalsound = IY
+    	initvowel = EY
+	->  class trueunisex  [75.8%]
+
+Rule 2:
+    	finalsound = AY
+	->  class trueunisex  [70.7%]
+
+Rule 31:
+    	finalsound = OW
+    	syllables = 1
+	->  class trueunisex  [70.7%]
+
+Rule 190:
+    	initsound = JH
+    	finalsound = N
+    	initvowel = AO
+	->  class trueunisex  [70.7%]
+
+Rule 22:
+    	finalsound = N
+    	origin = G1
+    	syllables = 1
+	->  class trueunisex  [68.4%]
+
+Rule 114:
+    	initsound = JH
+    	finalsound = IY
+    	initvowel = EH
+    	syllables = 2
+	->  class trueunisex  [68.4%]
+
+Rule 38:
+    	finalletter = T
+    	syllables = 1
+	->  class trueunisex  [63.0%]
+
+Rule 95:
+    	finalsound = ER
+    	initletter = S
+	->  class trueunisex  [61.2%]
+
+Rule 13:
+    	initsound = D
+    	finalsound = L
+	->  class trueunisex  [54.6%]
+
+Rule 27:
+    	initvowel = EY
+    	initletter = L
+    	syllables = 1
+	->  class trueunisex  [50.0%]
+
+Rule 36:
+    	finalsound = S
+    	finalvowel = IH
+    	syllables = 1
+	->  class trueunisex  [50.0%]
+
+Rule 148:
+    	initsound = T
+    	finalsound = IY
+    	initvowel = EH
+	->  class trueunisex  [50.0%]
+
+Rule 330:
+    	finalsound = N
+    	origin = G1
+    	syllables = 3
+	->  class trueunisex  [50.0%]
+
+Rule 105:
+    	initsound = B
+    	finalsound = IY
+    	initvowel = EY
+	->  class trueunisex  [45.3%]
+
+Rule 136:
+    	initsound = N
+    	finalsound = IY
+    	syllables = 2
+	->  class trueunisex  [45.3%]
+
+Rule 168:
+    	initsound = AE
+    	finalsound = N
+    	syllables = 2
+	->  class allboy  [85.7%]
+
+Rule 253:
+    	initsound = JH
+    	initvowel = AA
+	->  class allboy  [82.0%]
+
+Rule 244:
+    	finalsound = T
+    	finalvowel = ER
+	->  class allboy  [79.4%]
+
+Rule 231:
+    	finalsound = S
+    	initletter = L
+    	syllables = 2
+	->  class allboy  [75.6%]
+
+Rule 217:
+    	initsound = S
+    	finalsound = N
+    	initvowel = IY
+	->  class allboy  [70.7%]
+
+Rule 319:
+    	finalsound = L
+    	finalvowel = AH
+    	syllables = 3
+	->  class allboy  [70.7%]
+
+Rule 337:
+    	finalsound = S
+    	initvowel = IH
+    	syllables = 3
+	->  class allboy  [70.7%]
+
+Rule 8:
+    	finalsound = F
+	->  class allboy  [63.0%]
+
+Rule 86:
+    	finalsound = D
+    	origin = DE
+    	syllables = 2
+	->  class allboy  [63.0%]
+
+Rule 249:
+    	finalsound = UW
+    	syllables = 2
+	->  class allboy  [63.0%]
+
+Rule 10:
+    	finalsound = K
+    	syllables = 1
+	->  class allboy  [61.2%]
+
+Rule 17:
+    	initsound = N
+    	syllables = 1
+	->  class allboy  [61.2%]
+
+Rule 151:
+    	finalsound = K
+    	syllables = 2
+	->  class allboy  [61.0%]
+
+Rule 298:
+    	finalsound = ER
+    	syllables = 3
+	->  class allboy  [56.6%]
+
+Rule 87:
+    	finalsound = D
+    	origin = EN
+	->  class allboy  [54.6%]
+
+Rule 83:
+    	initsound = JH
+    	finalsound = B
+	->  class allboy  [50.0%]
+
+Rule 112:
+    	initsound = HH
+    	finalconsonant = R
+	->  class allboy  [50.0%]
+
+Rule 156:
+    	finalsound = L
+    	initvowel = AY
+    	syllables = 2
+	->  class allboy  [50.0%]
+
+Rule 225:
+    	finalsound = P
+    	syllables = 2
+	->  class allboy  [50.0%]
+
+Rule 228:
+    	finalsound = S
+    	initvowel = AH
+    	initletter = D
+	->  class allboy  [50.0%]
+
+Rule 331:
+    	finalsound = N
+    	initvowel = AH
+    	syllables = 3
+	->  class allboy  [50.0%]
+
+Rule 235:
+    	finalsound = S
+    	initletter = T
+	->  class allboy  [45.3%]
+
+Rule 42:
+    	finalsound = Z
+    	syllables = 1
+	->  class allboy  [31.4%]
+
+Rule 6:
+    	initsound = M
+    	finalsound = EY
+	->  class nofrills  [70.7%]
+
+Rule 14:
+    	initsound = G
+    	finalsound = L
+    	syllables = 1
+	->  class nofrills  [70.7%]
+
+Rule 41:
+    	finalsound = V
+	->  class nofrills  [70.7%]
+
+Rule 48:
+    	initsound = EH
+    	finalsound = AH
+    	syllables = 2
+	->  class nofrills  [70.7%]
+
+Rule 50:
+    	initsound = HH
+    	finalsound = AH
+    	syllables = 2
+	->  class nofrills  [70.7%]
+
+Rule 72:
+    	initsound = S
+    	finalsound = AH
+    	origin = HE
+    	syllables = 2
+	->  class nofrills  [70.7%]
+
+Rule 70:
+    	finalsound = AH
+    	origin = DE
+    	syllables = 2
+	->  class nofrills  [70.0%]
+
+Rule 195:
+    	initvowel = AO
+    	origin = EL
+    	syllables = 2
+	->  class nofrills  [66.2%]
+
+Rule 28:
+    	finalsound = N
+    	initvowel = IH
+    	initletter = L
+    	syllables = 1
+	->  class nofrills  [63.0%]
+
+Rule 39:
+    	finalsound = TH
+    	syllables = 1
+	->  class nofrills  [63.0%]
+
+Rule 80:
+    	initsound = V
+    	finalsound = AH
+    	syllables = 2
+	->  class nofrills  [63.0%]
+
+Rule 165:
+    	initsound = N
+    	finalsound = L
+    	initvowel = IH
+	->  class nofrills  [63.0%]
+
+Rule 65:
+    	finalconsonant = TH
+    	syllables = 2
+	->  class nofrills  [54.6%]
+
+Rule 134:
+    	initvowel = ER
+    	syllables = 2
+	->  class nofrills  [54.6%]
+
+Rule 233:
+    	finalsound = S
+    	initletter = P
+	->  class nofrills  [54.6%]
+
+Rule 4:
+    	initsound = F
+    	finalsound = EY
+	->  class nofrills  [50.0%]
+
+Rule 37:
+    	finalsound = T
+    	finalletter = E
+    	syllables = 1
+	->  class nofrills  [50.0%]
+
+Rule 90:
+    	finalsound = ER
+    	initletter = E
+	->  class nofrills  [50.0%]
+
+Rule 132:
+    	finalsound = IY
+    	initvowel = AH
+    	syllables = 2
+	->  class nofrills  [50.0%]
+
+Rule 158:
+    	initsound = EH
+    	finalsound = L
+	->  class nofrills  [50.0%]
+
+Rule 237:
+    	finalsound = T
+    	initvowel = AA
+    	finalvowel = AH
+	->  class nofrills  [50.0%]
+
+Rule 275:
+    	initvowel = AO
+    	finalconsonant = D
+	->  class nofrills  [50.0%]
+
+Rule 33:
+    	finalvowel = AE
+	->  class nofrills  [49.2%]
+
+Rule 18:
+    	initsound = S
+    	finalsound = L
+	->  class nofrills  [44.3%]
+
+Rule 66:
+    	initsound = N
+    	finalsound = AH
+    	syllables = 2
+	->  class nofrills  [44.3%]
+
+Rule 336:
+    	finalsound = R
+	->  class nofrills  [44.3%]
+
+Rule 24:
+    	finalsound = N
+    	initletter = J
+    	syllables = 1
+	->  class nofrills  [44.1%]
+
+Rule 34:
+    	finalsound = S
+    	syllables = 1
+	->  class nofrills  [37.3%]
+
+Rule 250:
+    	finalsound = Z
+    	syllables = 2
+	->  class nofrills  [31.4%]
+
+Rule 199:
+    	initsound = K
+    	finalsound = N
+    	origin = EN
+    	syllables = 2
+	->  class twosyllableboy  [85.7%]
+
+Rule 89:
+    	finalsound = ER
+    	initletter = C
+    	syllables = 2
+	->  class twosyllableboy  [79.4%]
+
+Rule 221:
+    	initsound = T
+    	finalsound = N
+	->  class twosyllableboy  [75.8%]
+
+Rule 247:
+    	finalsound = T
+    	initvowel = EH
+    	finalvowel = IH
+	->  class twosyllableboy  [75.8%]
+
+Rule 173:
+    	initsound = B
+    	finalsound = N
+    	syllables = 2
+	->  class twosyllableboy  [74.0%]
+
+Rule 179:
+    	initsound = D
+    	initvowel = IH
+	->  class twosyllableboy  [70.7%]
+
+Rule 191:
+    	initsound = JH
+    	finalsound = N
+    	initvowel = EH
+	->  class twosyllableboy  [70.7%]
+
+Rule 104:
+    	initsound = B
+    	initvowel = AE
+    	syllables = 2
+	->  class twosyllableboy  [66.2%]
+
+Rule 200:
+    	initsound = K
+    	finalsound = N
+    	finalvowel = AH
+    	syllables = 2
+	->  class twosyllableboy  [63.5%]
+
+Rule 183:
+    	initsound = EY
+    	finalsound = N
+    	syllables = 2
+	->  class twosyllableboy  [63.0%]
+
+Rule 189:
+    	initvowel = AH
+    	finalvowel = IH
+    	syllables = 2
+	->  class twosyllableboy  [63.0%]
+
+Rule 125:
+    	initsound = K
+    	initvowel = OW
+	->  class twosyllableboy  [61.0%]
+
+Rule 215:
+    	finalsound = N
+    	initvowel = OW
+    	syllables = 2
+	->  class twosyllableboy  [61.0%]
+
+Rule 53:
+    	initsound = JH
+    	finalsound = AH
+    	initvowel = OW
+	->  class twosyllableboy  [50.0%]
+
+Rule 84:
+    	initsound = K
+    	finalsound = B
+	->  class twosyllableboy  [50.0%]
+
+Rule 96:
+    	finalsound = ER
+    	initletter = T
+	->  class twosyllableboy  [49.6%]
+
+Rule 88:
+    	finalsound = D
+    	origin = HE
+	->  class twosyllableboy  [45.3%]
+
+Rule 182:
+    	initsound = EH
+    	finalsound = N
+    	syllables = 2
+	->  class twosyllableboy  [31.4%]
+
+Rule 201:
+    	finalsound = N
+    	finalvowel = IH
+    	origin = G1
+    	syllables = 2
+	->  class feminine  [93.0%]
+
+Rule 327:
+    	finalsound = N
+    	origin = EL
+    	syllables = 3
+	->  class feminine  [89.1%]
+
+Rule 285:
+    	initvowel = ER
+    	syllables = 3
+	->  class feminine  [88.2%]
+
+Rule 79:
+    	finalsound = AH
+    	finalconsonant = Y
+	->  class feminine  [87.1%]
+
+Rule 57:
+    	initsound = K
+    	finalsound = AH
+    	initvowel = IH
+	->  class feminine  [85.7%]
+
+Rule 261:
+    	initvowel = AE
+    	initconsonant = L
+    	syllables = 3
+	->  class feminine  [85.7%]
+
+Rule 181:
+    	finalsound = N
+    	finalvowel = IY
+    	syllables = 2
+	->  class feminine  [85.1%]
+
+Rule 321:
+    	finalsound = L
+    	initvowel = AE
+    	syllables = 3
+	->  class feminine  [84.1%]
+
+Rule 292:
+    	initvowel = OW
+    	syllables = 3
+	->  class feminine  [83.3%]
+
+Rule 305:
+    	finalsound = IY
+    	initletter = H
+	->  class feminine  [79.9%]
+
+Rule 234:
+    	finalvowel = IY
+    	initletter = P
+	->  class feminine  [79.4%]
+
+Rule 281:
+    	initvowel = EH
+    	initconsonant = K
+    	syllables = 3
+	->  class feminine  [79.4%]
+
+Rule 188:
+    	initsound = JH
+    	finalsound = N
+    	initvowel = AE
+	->  class feminine  [75.8%]
+
+Rule 198:
+    	initsound = K
+    	initvowel = IH
+    	origin = EL
+    	syllables = 2
+	->  class feminine  [75.8%]
+
+Rule 209:
+    	initsound = M
+    	finalsound = N
+    	origin = G1
+	->  class feminine  [75.8%]
+
+Rule 220:
+    	finalvowel = EY
+    	syllables = 2
+	->  class feminine  [75.8%]
+
+Rule 335:
+    	finalsound = N
+    	initvowel = IH
+    	syllables = 3
+	->  class feminine  [75.8%]
+
+Rule 290:
+    	finalsound = AH
+    	initvowel = IY
+    	finalconsonant = N
+	->  class feminine  [75.6%]
+
+Rule 59:
+    	initsound = L
+    	finalsound = AH
+    	syllables = 2
+	->  class feminine  [75.1%]
+
+Rule 46:
+    	finalsound = AH
+    	origin = EN
+	->  class feminine  [74.0%]
+
+Rule 263:
+    	finalsound = AH
+    	initconsonant = P
+	->  class feminine  [73.1%]
+
+Rule 131:
+    	initsound = M
+    	initvowel = AA
+    	syllables = 2
+	->  class feminine  [72.2%]
+
+Rule 255:
+    	finalsound = AH
+    	stress = SUU
+	->  class feminine  [71.8%]
+
+Rule 271:
+    	origin = FR
+    	syllables = 3
+	->  class feminine  [71.0%]
+
+Rule 106:
+    	initsound = CH
+    	finalsound = IY
+	->  class feminine  [70.7%]
+
+Rule 167:
+    	finalsound = L
+    	initvowel = OW
+	->  class feminine  [70.7%]
+
+Rule 312:
+    	finalsound = IY
+    	initletter = N
+    	syllables = 3
+	->  class feminine  [70.7%]
+
+Rule 219:
+    	initsound = SH
+    	finalvowel = AH
+	->  class feminine  [67.5%]
+
+Rule 82:
+    	initsound = Z
+    	syllables = 2
+	->  class feminine  [66.2%]
+
+Rule 270:
+    	initvowel = AH
+    	origin = ES
+	->  class feminine  [66.2%]
+
+Rule 278:
+    	initconsonant = D
+    	syllables = 3
+	->  class feminine  [64.8%]
+
+Rule 47:
+    	finalsound = AH
+    	origin = G1
+    	syllables = 2
+	->  class feminine  [64.5%]
+
+Rule 294:
+    	initvowel = UW
+    	syllables = 3
+	->  class feminine  [64.5%]
+
+Rule 68:
+    	initsound = R
+    	finalsound = AH
+	->  class feminine  [63.8%]
+
+Rule 12:
+    	initsound = B
+    	finalsound = L
+	->  class feminine  [63.0%]
+
+Rule 107:
+    	initsound = EY
+    	finalsound = IY
+    	syllables = 2
+	->  class feminine  [63.0%]
+
+Rule 128:
+    	finalsound = IY
+    	initvowel = IH
+    	finalconsonant = L
+    	syllables = 2
+	->  class feminine  [63.0%]
+
+Rule 242:
+    	finalvowel = EH
+    	initletter = C
+    	syllables = 2
+	->  class feminine  [63.0%]
+
+Rule 307:
+    	finalsound = IY
+    	initletter = K
+    	syllables = 3
+	->  class feminine  [63.0%]
+
+Rule 314:
+    	finalsound = IY
+    	initletter = S
+    	syllables = 3
+	->  class feminine  [63.0%]
+
+Rule 338:
+    	finalsound = S
+    	initvowel = IY
+    	syllables = 3
+	->  class feminine  [63.0%]
+
+Rule 205:
+    	initsound = L
+    	finalsound = N
+    	syllables = 2
+	->  class feminine  [54.6%]
+
+Rule 5:
+    	initsound = G
+    	finalsound = EY
+	->  class feminine  [50.0%]
+
+Rule 172:
+    	initsound = B
+    	origin = CY
+	->  class feminine  [50.0%]
+
+Rule 303:
+    	finalsound = IY
+    	initletter = E
+	->  class feminine  [50.0%]
+
+Rule 345:
+    	initvowel = AH
+    	syllables = 4
+	->  class feminine  [50.0%]
+
+Rule 348:
+    	finalconsonant = TH
+    	syllables = 4
+	->  class feminine  [50.0%]
+
+Rule 227:
+    	finalsound = S
+    	initletter = C
+    	syllables = 2
+	->  class feminine  [45.3%]
+
+Rule 347:
+    	finalconsonant = R
+    	syllables = 4
+	->  class feminine  [45.3%]
+
+Rule 269:
+    	finalsound = AH
+    	initvowel = AH
+    	origin = EL
+	->  class feminissima  [87.1%]
+
+Rule 284:
+    	finalsound = AH
+    	initvowel = EH
+    	initconsonant = S
+    	syllables = 3
+	->  class feminissima  [75.8%]
+
+Rule 267:
+    	finalsound = AH
+    	initvowel = AH
+    	initconsonant = L
+	->  class feminissima  [75.6%]
+
+Rule 127:
+    	initsound = L
+    	finalsound = IY
+    	initvowel = EY
+	->  class feminissima  [63.0%]
+
+Rule 293:
+    	initvowel = UW
+    	origin = 99
+	->  class feminissima  [63.0%]
+
+Rule 299:
+    	finalsound = EY
+    	syllables = 3
+	->  class feminissima  [63.0%]
+
+Rule 301:
+    	finalsound = IY
+    	initletter = C
+    	syllables = 3
+	->  class feminissima  [63.0%]
+
+Rule 163:
+    	initsound = K
+    	finalsound = L
+    	initvowel = IH
+	->  class feminissima  [61.2%]
+
+Rule 342:
+    	syllables = 4
+	->  class feminissima  [58.4%]
+
+Rule 256:
+    	initvowel = AA
+    	stress = USU
+	->  class feminissima  [54.6%]
+
+Rule 78:
+    	initsound = T
+    	finalconsonant = SH
+	->  class feminissima  [50.0%]
+
+Rule 320:
+    	finalsound = L
+    	initvowel = AA
+    	syllables = 3
+	->  class feminissima  [50.0%]
+
+Rule 264:
+    	finalsound = AH
+    	initvowel = AE
+	->  class feminissima  [48.8%]
+
+Rule 315:
+    	finalsound = IY
+    	initletter = T
+    	syllables = 3
+	->  class feminissima  [45.3%]
+
+Rule 323:
+    	finalsound = L
+    	initvowel = IH
+    	syllables = 3
+	->  class feminissima  [45.3%]
+
+Rule 241:
+    	finalsound = T
+    	finalvowel = EH
+    	syllables = 2
+	->  class feminissima  [34.8%]
+
+Rule 146:
+    	initsound = SH
+    	finalconsonant = R
+	->  class feminissima  [34.6%]
+
+Rule 341:
+    	finalsound = TH
+    	syllables = 3
+	->  class feminissima  [31.4%]
+
+Rule 334:
+    	initvowel = EH
+    	initconsonant = M
+    	syllables = 3
+	->  class feminissima  [30.7%]
+
+Default class: feminine
+
+
+Evaluation on training data (1176 items):
+
+Rule  Size  Error  Used  Wrong	          Advantage
+----  ----  -----  ----  -----	          ---------
+ 122     3  10.9%    12      0 (0.0%)	    12 (12|0) 	girlswinning
+ 102     3  18.0%     7      0 (0.0%)	     7 (7|0) 	girlswinning
+ 268     1  24.2%     5      0 (0.0%)	     5 (5|0) 	girlswinning
+ 121     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 142     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 143     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 291     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 119     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 126     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 129     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 145     2  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 160     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 178     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+  99     2  38.8%     6      1 (16.7%)	     5 (5|0) 	girlswinning
+ 206     2  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 309     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 311     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 212     2  50.4%     9      3 (33.3%)	     5 (6|1) 	girlswinning
+  30     2  14.3%     9      0 (0.0%)	     1 (1|0) 	trueunisex
+   7     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+ 140     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+   9     2  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 123     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 139     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 118     3  24.2%     5      0 (0.0%)	     5 (5|0) 	trueunisex
+   2     1  29.3%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  31     2  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+ 190     3  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+  22     3  31.6%     9      3 (33.3%)	     3 (6|3) 	trueunisex
+ 114     4  31.6%    15      3 (20.0%)	    11 (12|1) 	trueunisex
+  38     2  37.0%     3      0 (0.0%)	     3 (3|0) 	trueunisex
+  95     2  38.8%     6      1 (16.7%)	     5 (5|0) 	trueunisex
+  13     2  45.4%     5      1 (20.0%)	     4 (4|0) 	trueunisex
+  27     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  36     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 148     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 330     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 105     3  54.7%     4      1 (25.0%)	     3 (3|0) 	trueunisex
+ 136     3  54.7%     4      1 (25.0%)	     2 (3|1) 	trueunisex
+ 168     3  14.3%     9      0 (0.0%)	     9 (9|0) 	allboy
+ 253     2  18.0%     7      0 (0.0%)	     7 (7|0) 	allboy
+ 244     2  20.6%     6      0 (0.0%)	     6 (6|0) 	allboy
+ 231     3  24.4%    10      1 (10.0%)	     9 (9|0) 	allboy
+ 217     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 319     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 337     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+   8     1  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  86     3  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+ 249     2  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  10     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+  17     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+ 151     2  39.0%     9      2 (22.2%)	     7 (7|0) 	allboy
+ 298     2  43.4%     8      2 (25.0%)	     4 (6|2) 	allboy
+  87     2  45.4%     5      1 (20.0%)	     4 (4|0) 	allboy
+  83     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 112     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 156     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 225     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 228     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 331     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 235     2  54.7%     4      1 (25.0%)	     3 (3|0) 	allboy
+  42     2  68.6%     3      1 (33.3%)	     2 (2|0) 	allboy
+   6     2  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  14     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  41     1  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  48     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  50     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  72     4  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  70     3  30.0%     8      1 (12.5%)	     6 (7|1) 	nofrills
+ 195     3  33.8%     7      1 (14.3%)	     4 (5|1) 	nofrills
+  28     4  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  39     2  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  80     3  37.0%     3      0 (0.0%)	     2 (2|0) 	nofrills
+ 165     3  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  65     2  45.4%     5      1 (20.0%)	     4 (4|0) 	nofrills
+ 134     2  45.4%     4      1 (25.0%)	     3 (3|0) 	nofrills
+ 233     2  45.4%     5      1 (20.0%)	     3 (4|1) 	nofrills
+   4     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  37     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  90     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 132     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 158     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 237     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 275     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  33     1  50.8%    16      2 (12.5%)	    12 (13|1) 	nofrills
+  18     2  55.7%     5      1 (20.0%)	     3 (4|1) 	nofrills
+  66     3  55.7%     5      2 (40.0%)	     1 (3|2) 	nofrills
+ 336     1  55.7%     6      2 (33.3%)	     3 (4|1) 	nofrills
+  24     3  55.9%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  34     2  62.7%     3      0 (0.0%)	     3 (3|0) 	nofrills
+ 250     2  68.6%     3      1 (33.3%)	     1 (2|1) 	nofrills
+ 199     4  14.3%     9      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  89     3  20.6%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+ 221     2  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 247     3  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 173     3  26.0%    14      2 (14.3%)	     6 (8|2) 	twosyllableboy
+ 179     2  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 191     3  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 104     3  33.8%     3      1 (33.3%)	     1 (2|1) 	twosyllableboy
+ 200     4  36.5%     8      3 (37.5%)	     5 (5|0) 	twosyllableboy
+ 183     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 189     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 125     2  39.0%     6      2 (33.3%)	     2 (4|2) 	twosyllableboy
+ 215     3  39.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+  53     3  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  84     2  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  96     2  50.4%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+  88     2  54.7%     4      1 (25.0%)	     3 (3|0) 	twosyllableboy
+ 182     3  68.6%     3      1 (33.3%)	     2 (2|0) 	twosyllableboy
+ 201     4   7.0%    19      0 (0.0%)	     0 (0|0) 	feminine
+ 327     3  10.9%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 285     2  11.8%    11      0 (0.0%)	     0 (0|0) 	feminine
+  79     2  12.9%     9      0 (0.0%)	     1 (1|0) 	feminine
+  57     3  14.3%     9      0 (0.0%)	     0 (0|0) 	feminine
+ 261     3  14.3%     9      0 (0.0%)	     1 (1|0) 	feminine
+ 181     3  14.9%    25      2 (8.0%)	     0 (0|0) 	feminine
+ 321     3  15.9%     8      0 (0.0%)	     0 (0|0) 	feminine
+ 292     2  16.7%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 305     2  20.1%    28      2 (7.1%)	     0 (0|0) 	feminine
+ 234     2  20.6%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 281     3  20.6%     6      0 (0.0%)	     0 (0|0) 	feminine
+ 188     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 198     4  24.2%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 209     3  24.2%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 220     2  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 335     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 290     3  24.4%     9      1 (11.1%)	     0 (0|0) 	feminine
+  59     3  24.9%    23      4 (17.4%)	     0 (0|0) 	feminine
+  46     2  26.0%     7      1 (14.3%)	     0 (1|1) 	feminine
+ 263     2  26.9%     9      1 (11.1%)	     1 (1|0) 	feminine
+ 131     3  27.8%    11      1 (9.1%)	     0 (0|0) 	feminine
+ 255     2  28.2%    22      3 (13.6%)	     1 (2|1) 	feminine
+ 271     2  29.0%    23      4 (17.4%)	    -1 (1|2) 	feminine
+ 106     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 167     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 312     3  29.3%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 219     2  32.5%     8      0 (0.0%)	     0 (0|0) 	feminine
+  82     2  33.8%     5      0 (0.0%)	     1 (1|0) 	feminine
+ 270     2  33.8%     6      1 (16.7%)	     0 (0|0) 	feminine
+ 278     2  35.2%     8      2 (25.0%)	     0 (0|0) 	feminine
+  47     3  35.5%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 294     2  35.5%     6      2 (33.3%)	    -2 (0|2) 	feminine
+  68     2  36.2%     9      3 (33.3%)	    -2 (0|2) 	feminine
+  12     2  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 107     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 128     4  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 242     3  37.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 307     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 314     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 338     3  37.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 205     3  45.4%     3      0 (0.0%)	     0 (0|0) 	feminine
+   5     2  50.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 303     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 345     2  50.0%     1      0 (0.0%)	     1 (1|0) 	feminine
+ 348     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 227     3  54.7%     4      1 (25.0%)	     0 (0|0) 	feminine
+ 347     2  54.7%     4      1 (25.0%)	     2 (3|1) 	feminine
+ 269     3  12.9%    10      0 (0.0%)	     5 (5|0) 	feminissima
+ 284     4  24.2%     5      0 (0.0%)	     5 (5|0) 	feminissima
+ 267     3  24.4%     4      0 (0.0%)	     4 (4|0) 	feminissima
+ 127     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 293     2  37.0%     1      0 (0.0%)	     0 (0|0) 	feminissima
+ 299     2  37.0%     1      0 (0.0%)	     1 (1|0) 	feminissima
+ 301     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 163     3  38.8%     6      1 (16.7%)	     4 (4|0) 	feminissima
+ 342     1  41.6%    27      6 (22.2%)	    11 (15|4) 	feminissima
+ 256     2  45.4%     5      1 (20.0%)	     3 (4|1) 	feminissima
+  78     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 320     3  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 264     2  51.2%     9      2 (22.2%)	     6 (7|1) 	feminissima
+ 315     3  54.7%     4      1 (25.0%)	     3 (3|0) 	feminissima
+ 323     3  54.7%     2      1 (50.0%)	     0 (1|1) 	feminissima
+ 241     3  65.2%    11      5 (45.5%)	     1 (6|5) 	feminissima
+ 146     2  65.4%    10      5 (50.0%)	     0 (5|5) 	feminissima
+ 341     2  68.6%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 334     3  69.3%     9      4 (44.4%)	     3 (5|2) 	feminissima
+
+Drop rule 271
+
+Rule  Size  Error  Used  Wrong	          Advantage
+----  ----  -----  ----  -----	          ---------
+ 122     3  10.9%    12      0 (0.0%)	    12 (12|0) 	girlswinning
+ 102     3  18.0%     7      0 (0.0%)	     7 (7|0) 	girlswinning
+ 268     1  24.2%     5      0 (0.0%)	     5 (5|0) 	girlswinning
+ 121     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 142     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 143     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 291     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 119     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 126     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 129     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 145     2  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 160     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 178     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+  99     2  38.8%     6      1 (16.7%)	     5 (5|0) 	girlswinning
+ 206     2  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 309     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 311     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 212     2  50.4%     9      3 (33.3%)	     5 (6|1) 	girlswinning
+  30     2  14.3%     9      0 (0.0%)	     1 (1|0) 	trueunisex
+   7     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+ 140     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+   9     2  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 123     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 139     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 118     3  24.2%     5      0 (0.0%)	     5 (5|0) 	trueunisex
+   2     1  29.3%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  31     2  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+ 190     3  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+  22     3  31.6%     9      3 (33.3%)	     3 (6|3) 	trueunisex
+ 114     4  31.6%    15      3 (20.0%)	    11 (12|1) 	trueunisex
+  38     2  37.0%     3      0 (0.0%)	     3 (3|0) 	trueunisex
+  95     2  38.8%     6      1 (16.7%)	     5 (5|0) 	trueunisex
+  13     2  45.4%     5      1 (20.0%)	     4 (4|0) 	trueunisex
+  27     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  36     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 148     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 330     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 105     3  54.7%     4      1 (25.0%)	     3 (3|0) 	trueunisex
+ 136     3  54.7%     4      1 (25.0%)	     2 (3|1) 	trueunisex
+ 168     3  14.3%     9      0 (0.0%)	     9 (9|0) 	allboy
+ 253     2  18.0%     7      0 (0.0%)	     7 (7|0) 	allboy
+ 244     2  20.6%     6      0 (0.0%)	     6 (6|0) 	allboy
+ 231     3  24.4%    10      1 (10.0%)	     9 (9|0) 	allboy
+ 217     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 319     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 337     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+   8     1  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  86     3  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+ 249     2  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  10     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+  17     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+ 151     2  39.0%     9      2 (22.2%)	     7 (7|0) 	allboy
+ 298     2  43.4%     8      2 (25.0%)	     4 (6|2) 	allboy
+  87     2  45.4%     5      1 (20.0%)	     4 (4|0) 	allboy
+  83     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 112     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 156     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 225     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 228     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 331     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 235     2  54.7%     4      1 (25.0%)	     3 (3|0) 	allboy
+  42     2  68.6%     3      1 (33.3%)	     2 (2|0) 	allboy
+   6     2  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  14     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  41     1  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  48     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  50     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  72     4  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  70     3  30.0%     8      1 (12.5%)	     6 (7|1) 	nofrills
+ 195     3  33.8%     7      1 (14.3%)	     4 (5|1) 	nofrills
+  28     4  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  39     2  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  80     3  37.0%     3      0 (0.0%)	     2 (2|0) 	nofrills
+ 165     3  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  65     2  45.4%     5      1 (20.0%)	     4 (4|0) 	nofrills
+ 134     2  45.4%     4      1 (25.0%)	     3 (3|0) 	nofrills
+ 233     2  45.4%     5      1 (20.0%)	     3 (4|1) 	nofrills
+   4     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  37     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  90     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 132     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 158     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 237     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 275     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  33     1  50.8%    16      2 (12.5%)	    12 (13|1) 	nofrills
+  18     2  55.7%     5      1 (20.0%)	     3 (4|1) 	nofrills
+  66     3  55.7%     5      2 (40.0%)	     1 (3|2) 	nofrills
+ 336     1  55.7%     6      2 (33.3%)	     3 (4|1) 	nofrills
+  24     3  55.9%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  34     2  62.7%     3      0 (0.0%)	     3 (3|0) 	nofrills
+ 250     2  68.6%     3      1 (33.3%)	     1 (2|1) 	nofrills
+ 199     4  14.3%     9      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  89     3  20.6%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+ 221     2  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 247     3  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 173     3  26.0%    14      2 (14.3%)	     6 (8|2) 	twosyllableboy
+ 179     2  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 191     3  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 104     3  33.8%     3      1 (33.3%)	     1 (2|1) 	twosyllableboy
+ 200     4  36.5%     8      3 (37.5%)	     5 (5|0) 	twosyllableboy
+ 183     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 189     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 125     2  39.0%     6      2 (33.3%)	     2 (4|2) 	twosyllableboy
+ 215     3  39.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+  53     3  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  84     2  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  96     2  50.4%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+  88     2  54.7%     4      1 (25.0%)	     3 (3|0) 	twosyllableboy
+ 182     3  68.6%     3      1 (33.3%)	     2 (2|0) 	twosyllableboy
+ 201     4   7.0%    19      0 (0.0%)	     0 (0|0) 	feminine
+ 327     3  10.9%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 285     2  11.8%    11      0 (0.0%)	     0 (0|0) 	feminine
+  79     2  12.9%     9      0 (0.0%)	     1 (1|0) 	feminine
+  57     3  14.3%     9      0 (0.0%)	     0 (0|0) 	feminine
+ 261     3  14.3%     9      0 (0.0%)	     1 (1|0) 	feminine
+ 181     3  14.9%    25      2 (8.0%)	     0 (0|0) 	feminine
+ 321     3  15.9%     8      0 (0.0%)	     0 (0|0) 	feminine
+ 292     2  16.7%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 305     2  20.1%    28      2 (7.1%)	     0 (0|0) 	feminine
+ 234     2  20.6%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 281     3  20.6%     6      0 (0.0%)	     0 (0|0) 	feminine
+ 188     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 198     4  24.2%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 209     3  24.2%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 220     2  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 335     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 290     3  24.4%     9      1 (11.1%)	     0 (0|0) 	feminine
+  59     3  24.9%    23      4 (17.4%)	     0 (0|0) 	feminine
+  46     2  26.0%     7      1 (14.3%)	     0 (1|1) 	feminine
+ 263     2  26.9%     9      1 (11.1%)	     1 (1|0) 	feminine
+ 131     3  27.8%    11      1 (9.1%)	     0 (0|0) 	feminine
+ 255     2  28.2%    22      3 (13.6%)	     1 (2|1) 	feminine
+ 106     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 167     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 312     3  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 219     2  32.5%     8      0 (0.0%)	     0 (0|0) 	feminine
+  82     2  33.8%     5      0 (0.0%)	     1 (1|0) 	feminine
+ 270     2  33.8%     6      1 (16.7%)	     0 (0|0) 	feminine
+ 278     2  35.2%    15      4 (26.7%)	    -2 (0|2) 	feminine
+  47     3  35.5%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 294     2  35.5%     8      2 (25.0%)	    -2 (0|2) 	feminine
+  68     2  36.2%    11      3 (27.3%)	    -2 (0|2) 	feminine
+  12     2  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 107     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 128     4  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 242     3  37.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 307     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 314     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 338     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 205     3  45.4%     3      0 (0.0%)	     0 (0|0) 	feminine
+   5     2  50.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 303     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 345     2  50.0%     1      0 (0.0%)	     1 (1|0) 	feminine
+ 348     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 227     3  54.7%     4      1 (25.0%)	     0 (0|0) 	feminine
+ 347     2  54.7%     4      1 (25.0%)	     2 (3|1) 	feminine
+ 269     3  12.9%    10      0 (0.0%)	     5 (5|0) 	feminissima
+ 284     4  24.2%     5      0 (0.0%)	     5 (5|0) 	feminissima
+ 267     3  24.4%     4      0 (0.0%)	     4 (4|0) 	feminissima
+ 127     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 293     2  37.0%     1      0 (0.0%)	     0 (0|0) 	feminissima
+ 299     2  37.0%     1      0 (0.0%)	     1 (1|0) 	feminissima
+ 301     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 163     3  38.8%     6      1 (16.7%)	     4 (4|0) 	feminissima
+ 342     1  41.6%    27      6 (22.2%)	    11 (15|4) 	feminissima
+ 256     2  45.4%     5      1 (20.0%)	     3 (4|1) 	feminissima
+  78     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 320     3  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 264     2  51.2%     9      2 (22.2%)	     6 (7|1) 	feminissima
+ 315     3  54.7%     4      1 (25.0%)	     3 (3|0) 	feminissima
+ 323     3  54.7%     3      1 (33.3%)	     1 (2|1) 	feminissima
+ 241     3  65.2%    11      5 (45.5%)	     1 (6|5) 	feminissima
+ 146     2  65.4%    10      5 (50.0%)	     0 (5|5) 	feminissima
+ 341     2  68.6%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 334     3  69.3%    11      5 (45.5%)	     3 (6|3) 	feminissima
+
+Drop rule 278
+
+Rule  Size  Error  Used  Wrong	          Advantage
+----  ----  -----  ----  -----	          ---------
+ 122     3  10.9%    12      0 (0.0%)	    12 (12|0) 	girlswinning
+ 102     3  18.0%     7      0 (0.0%)	     7 (7|0) 	girlswinning
+ 268     1  24.2%     5      0 (0.0%)	     5 (5|0) 	girlswinning
+ 121     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 142     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 143     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 291     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 119     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 126     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 129     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 145     2  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 160     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 178     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+  99     2  38.8%     6      1 (16.7%)	     5 (5|0) 	girlswinning
+ 206     2  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 309     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 311     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 212     2  50.4%     9      3 (33.3%)	     5 (6|1) 	girlswinning
+  30     2  14.3%     9      0 (0.0%)	     1 (1|0) 	trueunisex
+   7     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+ 140     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+   9     2  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 123     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 139     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 118     3  24.2%     5      0 (0.0%)	     5 (5|0) 	trueunisex
+   2     1  29.3%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  31     2  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+ 190     3  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+  22     3  31.6%     9      3 (33.3%)	     3 (6|3) 	trueunisex
+ 114     4  31.6%    15      3 (20.0%)	    11 (12|1) 	trueunisex
+  38     2  37.0%     3      0 (0.0%)	     3 (3|0) 	trueunisex
+  95     2  38.8%     6      1 (16.7%)	     5 (5|0) 	trueunisex
+  13     2  45.4%     5      1 (20.0%)	     4 (4|0) 	trueunisex
+  27     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  36     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 148     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 330     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 105     3  54.7%     4      1 (25.0%)	     3 (3|0) 	trueunisex
+ 136     3  54.7%     4      1 (25.0%)	     2 (3|1) 	trueunisex
+ 168     3  14.3%     9      0 (0.0%)	     9 (9|0) 	allboy
+ 253     2  18.0%     7      0 (0.0%)	     7 (7|0) 	allboy
+ 244     2  20.6%     6      0 (0.0%)	     6 (6|0) 	allboy
+ 231     3  24.4%    10      1 (10.0%)	     9 (9|0) 	allboy
+ 217     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 319     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 337     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+   8     1  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  86     3  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+ 249     2  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  10     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+  17     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+ 151     2  39.0%     9      2 (22.2%)	     7 (7|0) 	allboy
+ 298     2  43.4%     8      2 (25.0%)	     4 (6|2) 	allboy
+  87     2  45.4%     5      1 (20.0%)	     4 (4|0) 	allboy
+  83     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 112     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 156     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 225     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 228     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 331     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 235     2  54.7%     4      1 (25.0%)	     3 (3|0) 	allboy
+  42     2  68.6%     3      1 (33.3%)	     2 (2|0) 	allboy
+   6     2  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  14     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  41     1  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  48     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  50     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  72     4  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  70     3  30.0%     8      1 (12.5%)	     6 (7|1) 	nofrills
+ 195     3  33.8%     7      1 (14.3%)	     4 (5|1) 	nofrills
+  28     4  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  39     2  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  80     3  37.0%     3      0 (0.0%)	     2 (2|0) 	nofrills
+ 165     3  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  65     2  45.4%     5      1 (20.0%)	     4 (4|0) 	nofrills
+ 134     2  45.4%     4      1 (25.0%)	     3 (3|0) 	nofrills
+ 233     2  45.4%     5      1 (20.0%)	     3 (4|1) 	nofrills
+   4     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  37     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  90     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 132     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 158     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 237     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 275     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  33     1  50.8%    16      2 (12.5%)	    12 (13|1) 	nofrills
+  18     2  55.7%     5      1 (20.0%)	     3 (4|1) 	nofrills
+  66     3  55.7%     5      2 (40.0%)	     1 (3|2) 	nofrills
+ 336     1  55.7%     6      2 (33.3%)	     3 (4|1) 	nofrills
+  24     3  55.9%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  34     2  62.7%     3      0 (0.0%)	     3 (3|0) 	nofrills
+ 250     2  68.6%     3      1 (33.3%)	     1 (2|1) 	nofrills
+ 199     4  14.3%     9      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  89     3  20.6%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+ 221     2  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 247     3  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 173     3  26.0%    14      2 (14.3%)	     6 (8|2) 	twosyllableboy
+ 179     2  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 191     3  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 104     3  33.8%     3      1 (33.3%)	     1 (2|1) 	twosyllableboy
+ 200     4  36.5%     8      3 (37.5%)	     5 (5|0) 	twosyllableboy
+ 183     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 189     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 125     2  39.0%     6      2 (33.3%)	     2 (4|2) 	twosyllableboy
+ 215     3  39.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+  53     3  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  84     2  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  96     2  50.4%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+  88     2  54.7%     4      1 (25.0%)	     3 (3|0) 	twosyllableboy
+ 182     3  68.6%     3      1 (33.3%)	     2 (2|0) 	twosyllableboy
+ 201     4   7.0%    19      0 (0.0%)	     0 (0|0) 	feminine
+ 327     3  10.9%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 285     2  11.8%    11      0 (0.0%)	     0 (0|0) 	feminine
+  79     2  12.9%     9      0 (0.0%)	     1 (1|0) 	feminine
+  57     3  14.3%     9      0 (0.0%)	     0 (0|0) 	feminine
+ 261     3  14.3%     9      0 (0.0%)	     1 (1|0) 	feminine
+ 181     3  14.9%    25      2 (8.0%)	     0 (0|0) 	feminine
+ 321     3  15.9%     8      0 (0.0%)	     0 (0|0) 	feminine
+ 292     2  16.7%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 305     2  20.1%    28      2 (7.1%)	     0 (0|0) 	feminine
+ 234     2  20.6%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 281     3  20.6%     6      0 (0.0%)	     0 (0|0) 	feminine
+ 188     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 198     4  24.2%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 209     3  24.2%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 220     2  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 335     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 290     3  24.4%     9      1 (11.1%)	     0 (0|0) 	feminine
+  59     3  24.9%    23      4 (17.4%)	     0 (0|0) 	feminine
+  46     2  26.0%     7      1 (14.3%)	     0 (1|1) 	feminine
+ 263     2  26.9%     9      1 (11.1%)	     1 (1|0) 	feminine
+ 131     3  27.8%    11      1 (9.1%)	     0 (0|0) 	feminine
+ 255     2  28.2%    22      3 (13.6%)	     1 (2|1) 	feminine
+ 106     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 167     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 312     3  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 219     2  32.5%     8      0 (0.0%)	     0 (0|0) 	feminine
+  82     2  33.8%     5      0 (0.0%)	     1 (1|0) 	feminine
+ 270     2  33.8%     6      1 (16.7%)	     0 (0|0) 	feminine
+  47     3  35.5%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 294     2  35.5%     8      2 (25.0%)	    -2 (0|2) 	feminine
+  68     2  36.2%    11      3 (27.3%)	    -2 (0|2) 	feminine
+  12     2  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 107     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 128     4  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 242     3  37.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 307     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 314     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 338     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 205     3  45.4%     3      0 (0.0%)	     0 (0|0) 	feminine
+   5     2  50.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 303     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 345     2  50.0%     1      0 (0.0%)	     1 (1|0) 	feminine
+ 348     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 227     3  54.7%     4      1 (25.0%)	     0 (0|0) 	feminine
+ 347     2  54.7%     4      1 (25.0%)	     2 (3|1) 	feminine
+ 269     3  12.9%    10      0 (0.0%)	     5 (5|0) 	feminissima
+ 284     4  24.2%     5      0 (0.0%)	     5 (5|0) 	feminissima
+ 267     3  24.4%     4      0 (0.0%)	     4 (4|0) 	feminissima
+ 127     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 293     2  37.0%     1      0 (0.0%)	     0 (0|0) 	feminissima
+ 299     2  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 301     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 163     3  38.8%     6      1 (16.7%)	     4 (4|0) 	feminissima
+ 342     1  41.6%    27      6 (22.2%)	    11 (15|4) 	feminissima
+ 256     2  45.4%     5      1 (20.0%)	     3 (4|1) 	feminissima
+  78     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 320     3  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 264     2  51.2%     9      2 (22.2%)	     6 (7|1) 	feminissima
+ 315     3  54.7%     4      1 (25.0%)	     3 (3|0) 	feminissima
+ 323     3  54.7%     3      1 (33.3%)	     1 (2|1) 	feminissima
+ 241     3  65.2%    11      5 (45.5%)	     1 (6|5) 	feminissima
+ 146     2  65.4%    10      5 (50.0%)	     0 (5|5) 	feminissima
+ 341     2  68.6%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 334     3  69.3%    11      5 (45.5%)	     3 (6|3) 	feminissima
+
+Drop rule 294
+
+Rule  Size  Error  Used  Wrong	          Advantage
+----  ----  -----  ----  -----	          ---------
+ 122     3  10.9%    12      0 (0.0%)	    12 (12|0) 	girlswinning
+ 102     3  18.0%     7      0 (0.0%)	     7 (7|0) 	girlswinning
+ 268     1  24.2%     5      0 (0.0%)	     5 (5|0) 	girlswinning
+ 121     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 142     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 143     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 291     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 119     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 126     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 129     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 145     2  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 160     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 178     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+  99     2  38.8%     6      1 (16.7%)	     5 (5|0) 	girlswinning
+ 206     2  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 309     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 311     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 212     2  50.4%     9      3 (33.3%)	     5 (6|1) 	girlswinning
+  30     2  14.3%     9      0 (0.0%)	     1 (1|0) 	trueunisex
+   7     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+ 140     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+   9     2  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 123     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 139     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 118     3  24.2%     5      0 (0.0%)	     5 (5|0) 	trueunisex
+   2     1  29.3%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  31     2  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+ 190     3  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+  22     3  31.6%     9      3 (33.3%)	     3 (6|3) 	trueunisex
+ 114     4  31.6%    15      3 (20.0%)	    11 (12|1) 	trueunisex
+  38     2  37.0%     3      0 (0.0%)	     3 (3|0) 	trueunisex
+  95     2  38.8%     6      1 (16.7%)	     5 (5|0) 	trueunisex
+  13     2  45.4%     5      1 (20.0%)	     4 (4|0) 	trueunisex
+  27     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  36     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 148     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 330     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 105     3  54.7%     4      1 (25.0%)	     3 (3|0) 	trueunisex
+ 136     3  54.7%     4      1 (25.0%)	     2 (3|1) 	trueunisex
+ 168     3  14.3%     9      0 (0.0%)	     9 (9|0) 	allboy
+ 253     2  18.0%     7      0 (0.0%)	     7 (7|0) 	allboy
+ 244     2  20.6%     6      0 (0.0%)	     6 (6|0) 	allboy
+ 231     3  24.4%    10      1 (10.0%)	     9 (9|0) 	allboy
+ 217     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 319     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 337     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+   8     1  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  86     3  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+ 249     2  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  10     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+  17     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+ 151     2  39.0%     9      2 (22.2%)	     7 (7|0) 	allboy
+ 298     2  43.4%     8      2 (25.0%)	     4 (6|2) 	allboy
+  87     2  45.4%     5      1 (20.0%)	     4 (4|0) 	allboy
+  83     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 112     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 156     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 225     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 228     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 331     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 235     2  54.7%     4      1 (25.0%)	     3 (3|0) 	allboy
+  42     2  68.6%     3      1 (33.3%)	     2 (2|0) 	allboy
+   6     2  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  14     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  41     1  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  48     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  50     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  72     4  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  70     3  30.0%     8      1 (12.5%)	     6 (7|1) 	nofrills
+ 195     3  33.8%     7      1 (14.3%)	     4 (5|1) 	nofrills
+  28     4  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  39     2  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  80     3  37.0%     3      0 (0.0%)	     2 (2|0) 	nofrills
+ 165     3  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  65     2  45.4%     5      1 (20.0%)	     4 (4|0) 	nofrills
+ 134     2  45.4%     4      1 (25.0%)	     3 (3|0) 	nofrills
+ 233     2  45.4%     5      1 (20.0%)	     3 (4|1) 	nofrills
+   4     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  37     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  90     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 132     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 158     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 237     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 275     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  33     1  50.8%    16      2 (12.5%)	    12 (13|1) 	nofrills
+  18     2  55.7%     5      1 (20.0%)	     3 (4|1) 	nofrills
+  66     3  55.7%     5      2 (40.0%)	     1 (3|2) 	nofrills
+ 336     1  55.7%     6      2 (33.3%)	     3 (4|1) 	nofrills
+  24     3  55.9%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  34     2  62.7%     3      0 (0.0%)	     3 (3|0) 	nofrills
+ 250     2  68.6%     3      1 (33.3%)	     1 (2|1) 	nofrills
+ 199     4  14.3%     9      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  89     3  20.6%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+ 221     2  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 247     3  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 173     3  26.0%    14      2 (14.3%)	     6 (8|2) 	twosyllableboy
+ 179     2  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 191     3  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 104     3  33.8%     3      1 (33.3%)	     1 (2|1) 	twosyllableboy
+ 200     4  36.5%     8      3 (37.5%)	     5 (5|0) 	twosyllableboy
+ 183     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 189     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 125     2  39.0%     6      2 (33.3%)	     2 (4|2) 	twosyllableboy
+ 215     3  39.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+  53     3  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  84     2  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  96     2  50.4%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+  88     2  54.7%     4      1 (25.0%)	     3 (3|0) 	twosyllableboy
+ 182     3  68.6%     3      1 (33.3%)	     2 (2|0) 	twosyllableboy
+ 201     4   7.0%    19      0 (0.0%)	     0 (0|0) 	feminine
+ 327     3  10.9%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 285     2  11.8%    11      0 (0.0%)	     0 (0|0) 	feminine
+  79     2  12.9%     9      0 (0.0%)	     1 (1|0) 	feminine
+  57     3  14.3%     9      0 (0.0%)	     0 (0|0) 	feminine
+ 261     3  14.3%     9      0 (0.0%)	     1 (1|0) 	feminine
+ 181     3  14.9%    25      2 (8.0%)	     0 (0|0) 	feminine
+ 321     3  15.9%     8      0 (0.0%)	     0 (0|0) 	feminine
+ 292     2  16.7%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 305     2  20.1%    28      2 (7.1%)	     0 (0|0) 	feminine
+ 234     2  20.6%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 281     3  20.6%     6      0 (0.0%)	     0 (0|0) 	feminine
+ 188     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 198     4  24.2%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 209     3  24.2%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 220     2  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 335     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 290     3  24.4%     9      1 (11.1%)	     0 (0|0) 	feminine
+  59     3  24.9%    23      4 (17.4%)	     0 (0|0) 	feminine
+  46     2  26.0%     7      1 (14.3%)	     0 (1|1) 	feminine
+ 263     2  26.9%     9      1 (11.1%)	     1 (1|0) 	feminine
+ 131     3  27.8%    11      1 (9.1%)	     0 (0|0) 	feminine
+ 255     2  28.2%    22      3 (13.6%)	     1 (2|1) 	feminine
+ 106     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 167     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 312     3  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 219     2  32.5%     8      0 (0.0%)	     0 (0|0) 	feminine
+  82     2  33.8%     5      0 (0.0%)	     1 (1|0) 	feminine
+ 270     2  33.8%     6      1 (16.7%)	     0 (0|0) 	feminine
+  47     3  35.5%     5      0 (0.0%)	     0 (0|0) 	feminine
+  68     2  36.2%    11      3 (27.3%)	    -2 (0|2) 	feminine
+  12     2  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 107     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 128     4  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 242     3  37.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 307     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 314     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 338     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 205     3  45.4%     3      0 (0.0%)	     0 (0|0) 	feminine
+   5     2  50.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 303     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 345     2  50.0%     1      0 (0.0%)	     1 (1|0) 	feminine
+ 348     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 227     3  54.7%     4      1 (25.0%)	     0 (0|0) 	feminine
+ 347     2  54.7%     4      1 (25.0%)	     2 (3|1) 	feminine
+ 269     3  12.9%    10      0 (0.0%)	     5 (5|0) 	feminissima
+ 284     4  24.2%     5      0 (0.0%)	     5 (5|0) 	feminissima
+ 267     3  24.4%     4      0 (0.0%)	     4 (4|0) 	feminissima
+ 127     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 293     2  37.0%     3      0 (0.0%)	     2 (2|0) 	feminissima
+ 299     2  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 301     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 163     3  38.8%     6      1 (16.7%)	     4 (4|0) 	feminissima
+ 342     1  41.6%    27      6 (22.2%)	    11 (15|4) 	feminissima
+ 256     2  45.4%     5      1 (20.0%)	     3 (4|1) 	feminissima
+  78     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 320     3  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 264     2  51.2%     9      2 (22.2%)	     6 (7|1) 	feminissima
+ 315     3  54.7%     4      1 (25.0%)	     3 (3|0) 	feminissima
+ 323     3  54.7%     3      1 (33.3%)	     1 (2|1) 	feminissima
+ 241     3  65.2%    11      5 (45.5%)	     1 (6|5) 	feminissima
+ 146     2  65.4%    10      5 (50.0%)	     0 (5|5) 	feminissima
+ 341     2  68.6%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 334     3  69.3%    11      5 (45.5%)	     3 (6|3) 	feminissima
+
+Drop rule 68
+
+Rule  Size  Error  Used  Wrong	          Advantage
+----  ----  -----  ----  -----	          ---------
+ 122     3  10.9%    12      0 (0.0%)	    12 (12|0) 	girlswinning
+ 102     3  18.0%     7      0 (0.0%)	     7 (7|0) 	girlswinning
+ 268     1  24.2%     5      0 (0.0%)	     5 (5|0) 	girlswinning
+ 121     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 142     3  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 143     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 291     4  29.3%     4      0 (0.0%)	     4 (4|0) 	girlswinning
+ 119     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 126     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 129     3  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 145     2  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 160     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+ 178     4  37.0%     3      0 (0.0%)	     3 (3|0) 	girlswinning
+  99     2  38.8%     6      1 (16.7%)	     5 (5|0) 	girlswinning
+ 206     2  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 309     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 311     3  50.0%     2      0 (0.0%)	     2 (2|0) 	girlswinning
+ 212     2  50.4%     9      3 (33.3%)	     5 (6|1) 	girlswinning
+  30     2  14.3%     9      0 (0.0%)	     1 (1|0) 	trueunisex
+   7     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+ 140     3  15.9%     8      0 (0.0%)	     8 (8|0) 	trueunisex
+   9     2  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 123     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 139     3  20.6%     6      0 (0.0%)	     6 (6|0) 	trueunisex
+ 118     3  24.2%     5      0 (0.0%)	     5 (5|0) 	trueunisex
+   2     1  29.3%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  31     2  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+ 190     3  29.3%     4      0 (0.0%)	     4 (4|0) 	trueunisex
+  22     3  31.6%     9      3 (33.3%)	     3 (6|3) 	trueunisex
+ 114     4  31.6%    15      3 (20.0%)	    11 (12|1) 	trueunisex
+  38     2  37.0%     3      0 (0.0%)	     3 (3|0) 	trueunisex
+  95     2  38.8%     6      1 (16.7%)	     5 (5|0) 	trueunisex
+  13     2  45.4%     5      1 (20.0%)	     4 (4|0) 	trueunisex
+  27     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+  36     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 148     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 330     3  50.0%     2      0 (0.0%)	     2 (2|0) 	trueunisex
+ 105     3  54.7%     4      1 (25.0%)	     3 (3|0) 	trueunisex
+ 136     3  54.7%     4      1 (25.0%)	     2 (3|1) 	trueunisex
+ 168     3  14.3%     9      0 (0.0%)	     9 (9|0) 	allboy
+ 253     2  18.0%     7      0 (0.0%)	     7 (7|0) 	allboy
+ 244     2  20.6%     6      0 (0.0%)	     6 (6|0) 	allboy
+ 231     3  24.4%    10      1 (10.0%)	     9 (9|0) 	allboy
+ 217     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 319     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+ 337     3  29.3%     4      0 (0.0%)	     4 (4|0) 	allboy
+   8     1  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  86     3  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+ 249     2  37.0%     3      0 (0.0%)	     3 (3|0) 	allboy
+  10     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+  17     2  38.8%     6      1 (16.7%)	     5 (5|0) 	allboy
+ 151     2  39.0%     9      2 (22.2%)	     7 (7|0) 	allboy
+ 298     2  43.4%     8      2 (25.0%)	     4 (6|2) 	allboy
+  87     2  45.4%     5      1 (20.0%)	     4 (4|0) 	allboy
+  83     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 112     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 156     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 225     2  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 228     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 331     3  50.0%     2      0 (0.0%)	     2 (2|0) 	allboy
+ 235     2  54.7%     4      1 (25.0%)	     3 (3|0) 	allboy
+  42     2  68.6%     3      1 (33.3%)	     2 (2|0) 	allboy
+   6     2  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  14     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  41     1  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  48     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  50     3  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  72     4  29.3%     4      0 (0.0%)	     4 (4|0) 	nofrills
+  70     3  30.0%     8      1 (12.5%)	     6 (7|1) 	nofrills
+ 195     3  33.8%     7      1 (14.3%)	     4 (5|1) 	nofrills
+  28     4  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  39     2  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  80     3  37.0%     3      0 (0.0%)	     2 (2|0) 	nofrills
+ 165     3  37.0%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  65     2  45.4%     5      1 (20.0%)	     4 (4|0) 	nofrills
+ 134     2  45.4%     4      1 (25.0%)	     3 (3|0) 	nofrills
+ 233     2  45.4%     5      1 (20.0%)	     3 (4|1) 	nofrills
+   4     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  37     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  90     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 132     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 158     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 237     3  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+ 275     2  50.0%     2      0 (0.0%)	     2 (2|0) 	nofrills
+  33     1  50.8%    16      2 (12.5%)	    12 (13|1) 	nofrills
+  18     2  55.7%     5      1 (20.0%)	     3 (4|1) 	nofrills
+  66     3  55.7%     5      2 (40.0%)	     1 (3|2) 	nofrills
+ 336     1  55.7%     6      2 (33.3%)	     3 (4|1) 	nofrills
+  24     3  55.9%     3      0 (0.0%)	     3 (3|0) 	nofrills
+  34     2  62.7%     3      0 (0.0%)	     3 (3|0) 	nofrills
+ 250     2  68.6%     3      1 (33.3%)	     1 (2|1) 	nofrills
+ 199     4  14.3%     9      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  89     3  20.6%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+ 221     2  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 247     3  24.2%     5      0 (0.0%)	     5 (5|0) 	twosyllableboy
+ 173     3  26.0%    14      2 (14.3%)	     6 (8|2) 	twosyllableboy
+ 179     2  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 191     3  29.3%     4      0 (0.0%)	     4 (4|0) 	twosyllableboy
+ 104     3  33.8%     3      1 (33.3%)	     1 (2|1) 	twosyllableboy
+ 200     4  36.5%     8      3 (37.5%)	     5 (5|0) 	twosyllableboy
+ 183     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 189     3  37.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+ 125     2  39.0%     6      2 (33.3%)	     2 (4|2) 	twosyllableboy
+ 215     3  39.0%     3      0 (0.0%)	     3 (3|0) 	twosyllableboy
+  53     3  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  84     2  50.0%     2      0 (0.0%)	     2 (2|0) 	twosyllableboy
+  96     2  50.4%     6      0 (0.0%)	     6 (6|0) 	twosyllableboy
+  88     2  54.7%     4      1 (25.0%)	     3 (3|0) 	twosyllableboy
+ 182     3  68.6%     3      1 (33.3%)	     2 (2|0) 	twosyllableboy
+ 201     4   7.0%    19      0 (0.0%)	     0 (0|0) 	feminine
+ 327     3  10.9%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 285     2  11.8%    11      0 (0.0%)	     0 (0|0) 	feminine
+  79     2  12.9%     9      0 (0.0%)	     1 (1|0) 	feminine
+  57     3  14.3%     9      0 (0.0%)	     0 (0|0) 	feminine
+ 261     3  14.3%     9      0 (0.0%)	     1 (1|0) 	feminine
+ 181     3  14.9%    25      2 (8.0%)	     0 (0|0) 	feminine
+ 321     3  15.9%     8      0 (0.0%)	     0 (0|0) 	feminine
+ 292     2  16.7%    12      0 (0.0%)	     0 (0|0) 	feminine
+ 305     2  20.1%    28      2 (7.1%)	     0 (0|0) 	feminine
+ 234     2  20.6%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 281     3  20.6%     6      0 (0.0%)	     0 (0|0) 	feminine
+ 188     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 198     4  24.2%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 209     3  24.2%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 220     2  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 335     3  24.2%     5      0 (0.0%)	     0 (0|0) 	feminine
+ 290     3  24.4%     9      1 (11.1%)	     0 (0|0) 	feminine
+  59     3  24.9%    23      4 (17.4%)	     0 (0|0) 	feminine
+  46     2  26.0%     7      1 (14.3%)	     0 (1|1) 	feminine
+ 263     2  26.9%     9      1 (11.1%)	     1 (1|0) 	feminine
+ 131     3  27.8%    11      1 (9.1%)	     0 (0|0) 	feminine
+ 255     2  28.2%    22      3 (13.6%)	     1 (2|1) 	feminine
+ 106     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 167     2  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 312     3  29.3%     4      0 (0.0%)	     0 (0|0) 	feminine
+ 219     2  32.5%     8      0 (0.0%)	     0 (0|0) 	feminine
+  82     2  33.8%     5      0 (0.0%)	     1 (1|0) 	feminine
+ 270     2  33.8%     6      1 (16.7%)	     0 (0|0) 	feminine
+  47     3  35.5%     5      0 (0.0%)	     0 (0|0) 	feminine
+  12     2  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 107     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 128     4  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 242     3  37.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 307     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 314     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 338     3  37.0%     3      0 (0.0%)	     0 (0|0) 	feminine
+ 205     3  45.4%     3      0 (0.0%)	     0 (0|0) 	feminine
+   5     2  50.0%     2      0 (0.0%)	     0 (0|0) 	feminine
+ 303     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 345     2  50.0%     1      0 (0.0%)	     1 (1|0) 	feminine
+ 348     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminine
+ 227     3  54.7%     4      1 (25.0%)	     0 (0|0) 	feminine
+ 347     2  54.7%     4      1 (25.0%)	     2 (3|1) 	feminine
+ 269     3  12.9%    10      0 (0.0%)	     5 (5|0) 	feminissima
+ 284     4  24.2%     5      0 (0.0%)	     5 (5|0) 	feminissima
+ 267     3  24.4%     4      0 (0.0%)	     4 (4|0) 	feminissima
+ 127     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 293     2  37.0%     3      0 (0.0%)	     2 (2|0) 	feminissima
+ 299     2  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 301     3  37.0%     3      0 (0.0%)	     3 (3|0) 	feminissima
+ 163     3  38.8%     6      1 (16.7%)	     4 (4|0) 	feminissima
+ 342     1  41.6%    29      6 (20.7%)	    13 (17|4) 	feminissima
+ 256     2  45.4%     5      1 (20.0%)	     3 (4|1) 	feminissima
+  78     2  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 320     3  50.0%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 264     2  51.2%     9      2 (22.2%)	     6 (7|1) 	feminissima
+ 315     3  54.7%     4      1 (25.0%)	     3 (3|0) 	feminissima
+ 323     3  54.7%     3      1 (33.3%)	     1 (2|1) 	feminissima
+ 241     3  65.2%    11      5 (45.5%)	     1 (6|5) 	feminissima
+ 146     2  65.4%    10      5 (50.0%)	     0 (5|5) 	feminissima
+ 341     2  68.6%     2      0 (0.0%)	     2 (2|0) 	feminissima
+ 334     3  69.3%    11      5 (45.5%)	     3 (6|3) 	feminissima
+
+Tested 1176, errors 219 (18.6%)   <<
+
+
+	  (a)  (b)  (c)  (d)  (e)  (f)  (g)	<-classified as
+	 ---- ---- ---- ---- ---- ---- ----
+	   98   28                   1    1	(a): class feminissima
+	   21  399   10    2    2    4    2	(b): class feminine
+	    3   56  107         3    4    4	(c): class nofrills
+	    1    6        75              1	(d): class girlswinning
+	        11            102          	(e): class trueunisex
+	        17    1    2    2   80    2	(f): class twosyllableboy
+	    2   27    2         3    1   96	(g): class allboy
+

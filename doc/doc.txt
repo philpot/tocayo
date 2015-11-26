@@ -1,0 +1,104 @@
+25 July 03
+Updated 2 August 03
+
+IMPLEMENTED NAME SEARCH PARAMETERS
+
+GENDER = M and/or F
+ORIGIN = EN, FR, etc. mostly languages but some groups including
+  Slavic, Scandinavian, African, African-American, American Indian (32
+  in all)
+SYLLABLES = 1 to 5
+STRESS PATTERN = e.g., 10 (stressed,unstressed) Patrick
+	               01 (unstressed,stressed) Denise
+		       1 (stressed) Ruth
+		       0010 (u,u,s,u) Alexander, etc.
+DECILE (popularity) = 1 to 10: 10 means most popular 10% of name base
+  1 is least popular.  Computed for US SSA data 2000.  Also have raw
+  populations but not queryable.
+BEGINS/ENDS/CONTAINS LETTER: does/does not have that letter is
+  specified position
+BEGINS/ENDS/CONTAINS SOUND: does/does not have the phoneme in
+  specified position.  Uses CMU pron. EN phonemicization (40 phonemes,
+  e.g., Bonaventure is rendered /B AA N AH V EH N CH ER/
+SEMANTIC-DISTANCE: each name is associated with meaning(s), e.g.,
+  Susan: lily; Tamara: date palm tree; Herbert: bright/ruler/army
+  Constructed tree of meanings, so lily<<flower<<plant<<living thing.
+  SEMDIST = minimum distance up to fork and then back down. e.g., 
+  dist(Susan,Tamara) = flower,plant,living,tree,palm = 4.  All names
+  associated with a given root are grouped together as well (Susan,
+  Suzanne, Susannah, Shoshana).  There are 1200 different meanings,
+  and 1300 different 'family' groupings (because, e.g, two otherwise
+  unrelated name families such as 'Luke' and 'Helen' can both mean
+  'light').
+PHONETIC-DISTANCE: perform EDIT-DISTANCE on two phonemic strings,
+  counting the number operations needed to transform p1 into p2.
+  e.g., SAMMY /s ae m iy/ to AMY /ey m iy/ is 1*delete+1*subst = 2
+  also have more sophisticated subst. cost models; for example,
+  substituting IY (as in 'see') and IH (as in 'sit') seems less
+  drastic than substituting IY with something like R or Z or OW.
+
+CORPUS
+
+4000 names, approximately 2000 each for M/F.  Names are mostly from US
+SSA (incl. popularity), also some from babynames.com.  Origin,
+Definitions are from babynames.com with regularization and tree
+structure by AGP.  I generated syllables, stress, by hand.  I used USC
+ISI code to generate phonetic representations (machine learning based
+on pronouncing dictionary), then chose best by hand (plus significant
+hand editing).
+
+EXAMPLE:
+
+LUX(39): (namesearch "" :begins-letter '("P" "B" "T" "R" "W" "M")
+		     :origin '("G1" "LA" "HE" "EN" "DE")
+		     :decile '(3 . 7) :syllables 3 :gender "F"
+		     :!ends-sound "AH")
+
+=>
+
+"SELECT distinct n.name,n.gender,n.origin,n.syllables,n.stresspat,
+p.pron,s.sem
+FROM name n,pron p,sem s
+WHERE n.name = p.name
+AND s.name = n.name
+AND (n.origin = 'DE' OR n.origin = 'EN' OR n.origin = 'HE' OR n.origin
+     = 'LA' OR n.origin = 'G1') 
+AND (n.popularity >= 527 AND n.popularity <= 8200)
+AND (n.gender = 'F')
+AND (p.gender = 'F')
+AND (right(p.pron,locate(' ',reverse(p.pron))-1) != 'AH')
+AND (n.syllables = 3)
+AND (left(n.name,1) = 'M' OR left(n.name,1) = 'W' OR left(n.name,1) =
+    'R' OR left(n.name,1) = 'T' OR left(n.name,1) = 'B' OR
+    left(n.name,1) = 'P')"
+
+=>
+
+(0 0 ("life" "Biblical town") "Bethany" "F" "HE" "3" #("100") 
+     "B EH TH AH N IY") 
+(0 0 ("son of Matthew") "Madison" "F" "EN" "3" #("100") 
+     "M AE D IH S AH N")
+(0 0 ("happiness" "descendant of Kenneth") "Mackenzie" 
+     "F" "G1" "3" #("010") 
+     "M AH K IH N Z IY")
+(0 0 ("pearl: gemstone") "Margaret" "F" "LA" "3" #("100")
+     "M AA R G ER EH T"))
+
+FUTURE WORK:
+
+* Allow beginning/ending/medial sounds to be sequences, not just
+  isolates.  For example, I want a name that ends in 'SH AH'; right
+  now I can only say "ends in 'AH'" and contains "SH".  Should be
+  straightforward to back-end
+
+* Interface to a TTS pronouncer, for interactive (browser) use:
+  i.e. pronounce a encoded pron sequence, not just name.  I want it
+  TTS based, so that we don't have to record everything and to use it
+  to test consistency of phonemic repn. and for future extensions.
+
+* Invert pronunciation ML code to generate new spellings for known
+  pronunciations: I want the name 'Katie' but I want a unique
+  spelling => 'Kati,Kaeti,Kaytie,Qatie,Caity,Katee,'
+
+* Link in all kinds of proprietary annotation data from BJJMM: soap
+  opera names, royal names, in/out, macho/feminissima, etc.

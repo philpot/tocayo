@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/site/assets"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="tabnormal.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="up.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="thumb_nmb.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="nmb.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue10.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gender-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl0b.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink00.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="thumb_blue.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="bobo-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink01.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink02.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="rc.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink03.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="thumb_speaker.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink04.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="speaker.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink05.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink06.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="scissors.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink07.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink08.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink09.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="thumb_green.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sound-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl0p.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="left.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="lookup-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="meaning-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spkr.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spelling-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl1b.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink10.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabnormal_t.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="syllables-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="origin-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="thumb_pink.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="right.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spkr.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl1p.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl0.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl1.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl2.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl3.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl4.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl5.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl6.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl7.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl8.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl9.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="popularity-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="config-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="lookup-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spelling-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="circle.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="meaning-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tab.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="down.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="origin-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="green.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="pink.jpg"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="syllables-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blackpixel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabnormaloutline.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gender-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="config-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue00.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue01.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="clearpixel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue02.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="speaker.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue03.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue04.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="redcircle.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="popularity-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue05.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue06.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue07.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue08.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="blue09.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl10.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabnormal.xbm"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spkr2.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="bobo-unsel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabdark.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sound-sel.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="speaker0.gif"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

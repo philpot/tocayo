@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/site/arch"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="sl0p.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl1p.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl0b.gif"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sl1b.gif"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

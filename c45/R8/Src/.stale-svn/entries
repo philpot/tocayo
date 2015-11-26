@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/c45/R8/Src"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="stats.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="genlogs.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="build.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="getopt.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="buildex.i"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="getnames.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="c4.5rules"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="rulex.i"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="defns.i"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consult"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="getdata.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consultr.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="average.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="types.i"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="extern.i"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="classify.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="xval-prep.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="siftrules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="st-thresh.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="trees.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="genrules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="c4.5rules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consult.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="makerules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="c4.5"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="contin.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="testrules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="info.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="Makefile"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="xval.sh"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="discr.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="subset.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="Modifications"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="c4.5.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="besttree.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="prunerule.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sort.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="confmat.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="header.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="consultr"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="prune.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="userint.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="average"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="rules.c"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="xval-prep"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/morph"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="missing-sound-pron-to-syl.lisp"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/c45/R8/Data"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="vote.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="hypo.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="labor-neg.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="vote.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk1.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="hypo.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk2.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk3.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="golf.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="vote.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk1.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="hypo.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk2.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="crx.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk3.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="golf.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="soybean.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk1.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk2.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="crx.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="monk3.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="labor-neg.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="soybean.data"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="crx.test"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="labor-neg.data"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

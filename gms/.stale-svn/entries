@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/gms"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="gms.rules"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.tree"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.unpruned"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.names"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="rules"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.lisp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.dt"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gms.data"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/site"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="file3.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="detail.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="file4.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="lookup_list.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="dump.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="play.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="popularity.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="login.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="lookup.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="excel4.xls"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spelling.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="csvfile"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="postscript.ps"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="test.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="bobo.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="assets"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="origin.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="css.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="csvfile2.csv"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="misc.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="csvfile3.csv"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="arch"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="bottom.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="gender.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="config.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sembrowse.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="csvfile.csv"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="meaning.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sembrose.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabexample.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="excel3.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="testgraphics.html"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="tabpanel.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="scripts.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="sound.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="syllables.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="csvfile.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="realhome.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="save.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="panel.clp"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="spelling3.clp"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

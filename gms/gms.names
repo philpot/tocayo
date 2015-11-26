@@ -1,0 +1,14 @@
+feminissima, feminine, nofrills, girlswinning, trueunisex, twosyllableboy, allboy.
+
+name: ignore.
+initsound: AA, AE, AH, AO, AW, AY, B, CH, D, DH, EH, ER, EY, F, G, HH, IH, IY, JH, K, L, M, N, NG, OW, OY, P, R, S, SH, T, TH, UH, UW, V, W, Y, Z, ZH.
+finalsound: AA, AE, AH, AO, AW, AY, B, CH, D, DH, EH, ER, EY, F, G, HH, IH, IY, JH, K, L, M, N, NG, OW, OY, P, R, S, SH, T, TH, UH, UW, V, W, Y, Z, ZH.
+initvowel: AA, AE, AH, AO, AW, AY, EH, ER, EY, IH, IY, OW, OY, UH, UW.
+finalvowel: AA, AE, AH, AO, AW, AY, EH, ER, EY, IH, IY, OW, OY, UH, UW.
+initconsonant: B, CH, D, DH, ER, F, G, HH, JH, K, L, M, N, NG, P, R, S, SH, T, TH, V, W, Y, Z, ZH.
+finalconsonant: B, CH, D, DH, ER, F, G, HH, JH, K, L, M, N, NG, P, R, S, SH, T, TH, V, W, Y, Z, ZH.
+origin: 99, A1, A2, A3, AR, CY, DE, EL, EN, ES, FA, FR, G1, H1, HE, HI, HU, HY, IT, JA, KM, LA, NL, PL, PT, RU, S1, S2, SW, TR, VI, ZH.
+initletter: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
+finalletter: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.
+syllables: 1, 2, 3, 4, 5.
+stress: S, SS, SU, SUSU, SUU, US, USU, USUU, UUS, UUSU, UUSUU, UUUS.

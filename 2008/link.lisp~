@@ -1,0 +1,66 @@
+;;; -*- Mode:Lisp; Syntax:Common-lisp; Coding:utf-8; Package:NAMEMYBABY; Base:10 -*-
+
+(in-package :namemybaby)
+
+(eval-when (:compile-toplevel :load-toplevel :execute)
+  (require :edu.isi.isd.nlp.adt.readtable.readtableutil)
+  (use-package :edu.isi.isd.nlp.adt.readtable.readtableutil)
+
+  (require :work.alphaprefix-reader)
+  (use-package :work.alphaprefix-reader))
+
+(defmacro deflink (rel a1 a2)
+  `(express-link ,rel ,a1 ,a2))
+
+(eval-when (:load-toplevel :execute)
+  (define-readtable :link (copy-readtable nil))
+  (defmethod reify-token 
+      ((char (eql #\!)) (subchar (eql #\.)) (prefix t) (count t) (string string))
+    (vector char subchar prefix count string))
+  (set-macro-character #\! 'read-alphaprefix nil (find-readtable :link)))
+
+
+;; tokens
+(defpackage :t (:use))
+;; languages
+(defpackage :l (:use))
+
+(defvar *relation-caches* (make-hash-table :test #'eql))
+
+(defun relation-cache (symbol)
+  (or (gethash symbol *relation-caches*)
+      (error "~S doesn't name a relation")))
+
+(defclass relation-info ()
+  ((name :accessor name
+	 :initarg :name)
+   (inverse :accessor inverse
+	    :initarg :inverse
+	    :initform nil)))
+
+(defun make-relation-info (&key name inverse)
+  (assert name)
+  (make-instance 'relation-info
+    :name name
+    :inverse inverse))
+
+(defmacro define-relation (relation &key inverse)
+  `(progn
+     (unless (gethash ,relation *relation-caches*)
+       (setf (gethash ,relation *relation-caches*)
+	 (make-hash-table :test #'equal)))
+     (setf (gethash ,relation *relation-info*)
+       (make-relation-info :name relation :inverse inverse))
+     (when inverse
+       (setf (gethash ,inverse *relation-info*)
+	 (make-relation-info :name ,inverse :inverse relation)))
+     ,relation))
+
+(defun express-link (rel a1 a2)
+  (pushnew a2 (gethash a1 (relation-cache rel)))
+  (let ((inv (inverse rel)))
+    (when inv
+      (pushnew a1 (gethash a2 (relation-cache inv))))))
+
+(eval-when (:load-toplevel :execute)
+  (define-relation :language))

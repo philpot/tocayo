@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   url="http://svn.isi.edu:81/svn/nlp/users/philpot/lisp/system/namemybaby/c45/R8"
+   kind="dir"
+   schedule="add"
+   revision="0"/>
+<entry
+   name="LEGAL"
+   kind="file"
+   schedule="add"/>
+<entry
+   name="Doc"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="Src"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="Data"
+   kind="dir"
+   schedule="add"/>
+<entry
+   name="ReadMe"
+   kind="file"
+   schedule="add"/>
+</wc-entries>

@@ -1,4 +1,0 @@
-;;; -*- Mode:Lisp; Syntax:Common-lisp; Package:NMB; Base:10 -*-
-
-(in-package :nmb)
-

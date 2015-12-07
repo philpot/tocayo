@@ -266,6 +266,55 @@ def import_meaning():
     for meaning in Meaning.objects.all():
         meaning.save()
 
+def import_survey():
+    cursor = setup_cursor()
+    if cursor is None:
+        return
+    sql = """SELECT id, name, year, gender, basis, author FROM survey"""
+    cursor.execute(sql)
+    for row in cursor.fetchall():
+        try:
+            author = Author.objects.get(id=row[5])
+        except ObjectDoesNotExist:
+            print("Author not found with id %s" % row[5])
+            continue
+        try:
+            gender = Gender.objects.get(id=row[3])
+        except ObjectDoesNotExist:
+            print("Gender not found with id %s" % row[3])
+            continue
+        else:
+            survey = Survey.objects.get_or_create(id=row[0], name=row[1], year=row[2], gender=gender, basis=row[4], author=author)
+    for survey in Survey.objects.all():
+        survey.save()
+
+def import_freq():
+    cursor = setup_cursor()
+    if cursor is None:
+        return
+    sql = """SELECT id, did, survey, count, author FROM freq"""
+    cursor.execute(sql)
+    for row in cursor.fetchall():
+        try:
+            author = Author.objects.get(id=row[4])
+        except ObjectDoesNotExist:
+            print("Author not found with id %s" % row[4])
+            continue
+        try:
+            desig = Desig.objects.get(id=row[1])
+        except ObjectDoesNotExist:
+            print("Desig not found with id %s" % row[1])
+            continue
+        try:
+            survey = Survey.objects.get(id=row[2])
+        except ObjectDoesNotExist:
+            print("Survey not found with id %s" % row[2])
+            continue
+        else:
+            freq = Freq.objects.get_or_create(id=row[0], desig=desig, survey=survey, count=row[3], author=author)
+    for freq in Freq.objects.all():
+        freq.save()
+
 def main():
     import_author()
     import_gender()
@@ -279,6 +328,8 @@ def main():
     import_idea()
     import_onto()
     import_meaning()
+    import_survey()
+    import_freq()
 
 # if __name__=="__main__":
 #     main()

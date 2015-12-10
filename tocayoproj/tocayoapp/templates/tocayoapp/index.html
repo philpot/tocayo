@@ -1,0 +1,10 @@
+<b>{{ desig.token.token }}</b>
+{% if meaning_set %}
+    <ul>
+    {% for meaning in meaning_set %}
+        <li><a href="/meaning/{{ meaning.id }}/">{{ meaning.idea.idea }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No meanings are available.</p>
+{% endif %}

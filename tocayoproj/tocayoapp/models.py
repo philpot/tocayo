@@ -3,9 +3,9 @@ from django.db import models
 # Create your models here.
 
 class Author(models.Model):
-    author = models.CharField(max_length=127, unique=True)
+    name = models.CharField(max_length=127, unique=True)
     def __str__(self):
-        return self.author
+        return self.name
 
 class Gender(models.Model):
     name = models.CharField(max_length=3, unique=True)
@@ -14,10 +14,10 @@ class Gender(models.Model):
         return self.name
 
 class Token(models.Model):
-    token = models.CharField(max_length=31, unique=True)
+    name = models.CharField(max_length=31, unique=True)
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return self.token
+        return self.name
 
 class Desig(models.Model):
     token = models.ForeignKey(Token, null=True, on_delete=models.SET_NULL)
@@ -50,10 +50,10 @@ class Scope(models.Model):
         return str(self.desig) + str(self.scopeType) + str(self.lang)
 
 class Utter(models.Model):
-    utter = models.CharField(max_length=47, unique=True)
+    name = models.CharField(max_length=47, unique=True)
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return self.utter
+        return self.name
 
 class Pronounce(models.Model):
     desig = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL)
@@ -80,10 +80,10 @@ class Freq(models.Model):
         return str(self.desig) + " " + str(self.survey) + " " + str(self.count)
 
 class Idea(models.Model):
-    idea = models.CharField(max_length=47, unique=True)
+    name = models.CharField(max_length=47, unique=True)
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return self.idea
+        return self.name
 
 class Meaning(models.Model):
     desig = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL)

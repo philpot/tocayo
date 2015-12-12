@@ -1,0 +1,10 @@
+<b>{{ utter.name }}</b>
+{% if pronounce_set %}
+    <ul>
+    {% for pronounce in pronounce_set %}
+        <li><a href="tocayoapp/pronounce/{{ pronounce.id }}/">{{ pronounce.utter.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No pronunciations are available.</p>
+{% endif %}

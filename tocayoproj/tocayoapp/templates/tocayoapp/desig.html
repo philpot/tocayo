@@ -1,10 +1,30 @@
-<b>{{ desig.token.token }}</b>
+<b>{{ desig.token.name }}</b>
 {% if meaning_set %}
     <ul>
     {% for meaning in meaning_set %}
-        <li><a href="/meaning/{{ meaning.id }}/">{{ meaning.idea.idea }}</a></li>
+        <li><a href="/meaning/{{ meaning.id }}/">{{ meaning.idea.name }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
     <p>No meanings are available.</p>
+{% endif %}
+
+{% if scope_set %}
+    <ul>
+    {% for scope in scope_set %}
+        <li><a href="/scope/{{ scope.id }}/">{{ scope.scopeType.name }} {{ scope.scopeType.lang.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No scopes are available.</p>
+{% endif %}
+
+{% if pronounce_set %}
+    <ul>
+    {% for pronounce in pronounce_set %}
+        <li><a href="tocayoapp/utter/{{ pronounce.utter.id }}/">{{ pronounce.utter.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No pronunciations are available.</p>
 {% endif %}

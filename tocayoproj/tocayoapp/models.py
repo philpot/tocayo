@@ -9,9 +9,10 @@ class Author(models.Model):
 
 class Gender(models.Model):
     name = models.CharField(max_length=3, unique=True)
+    description = models.CharField(max_length=15)
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return self.name
+        return self.description
 
 class Token(models.Model):
     name = models.CharField(max_length=31, unique=True)
@@ -25,7 +26,7 @@ class Desig(models.Model):
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     uid = models.IntegerField(default=1)
     def __str__(self):
-        return str(self.token) + " " + str(self.gender)
+        return str(self.token) + " (" + str(self.gender) + ")"
 
 class Lang(models.Model):
     name = models.CharField(max_length=47, unique=True)
@@ -47,7 +48,7 @@ class Scope(models.Model):
     lang = models.ForeignKey(Lang, null=True, on_delete=models.SET_NULL)
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return str(self.desig) + str(self.scopeType) + str(self.lang)
+        return str(self.desig) + ": " + str(self.scopeType) + "=" + str(self.lang)
 
 class Utter(models.Model):
     name = models.CharField(max_length=47, unique=True)
@@ -93,8 +94,8 @@ class Meaning(models.Model):
         return str(self.desig) + " " + str(self.idea)
 
 class Onto(models.Model):
-    child = models.ForeignKey(Idea, null=True, on_delete=models.SET_NULL)
-    parent = models.ForeignKey(Idea, null=True, on_delete=models.SET_NULL, related_name='onto_parent_of')
-    author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL, related_name='onto_child_of')
+    child = models.ForeignKey(Idea, null=True, on_delete=models.SET_NULL, related_name='onto_child_set')
+    parent = models.ForeignKey(Idea, null=True, on_delete=models.SET_NULL, related_name='onto_parent_set')
+    author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
-        return str(self.child) + " " + str(self.parent)
+        return str(self.child) + "<<--" + str(self.parent)

@@ -106,9 +106,9 @@ class RelType(models.Model):
     def __str__(self):
         return self.name
 
-# class Related(models.Model):
-#     relationType = models.ForeignKey(RelationType, null=True, on_delete=models.SET_NULL)    
-#     core = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_core_set')
-#     satellite = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_satellite_set')
-#     def __str__(self):
-#         return "{}({}, {})".format(self.relationType, self.core, self.satellite)
+class Rel(models.Model):
+    relType = models.ForeignKey(RelType, null=True, on_delete=models.SET_NULL)    
+    core = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_core_set')
+    satellite = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_satellite_set')
+    def __str__(self):
+        return "{}({}, {})".format(self.relType, self.core, self.satellite)

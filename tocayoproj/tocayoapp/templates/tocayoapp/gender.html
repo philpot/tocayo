@@ -1,0 +1,20 @@
+<b>{{ gender.id }} {{ gender.name }}</b>
+{% if desig_set %}
+    <ul>
+    {% for desig in desig_set %}
+        <li><a href="/tocayoapp/desig/{{ desig.id }}/">{{ desig }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No desigs are available.</p>
+{% endif %}
+
+{% if survey_set %}
+    <ul>
+    {% for survey in survey_set %}
+        <li><a href="/tocayoapp/survey/{{ survey.id }}/">{{ survey }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No surveys are available.</p>
+{% endif %}

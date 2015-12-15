@@ -1,0 +1,20 @@
+<b>{{ lang.name }}</b>
+<br/>
+<b>{{ lang.id }}</b>
+<br/>
+<b>{{ lang.short }}</b>
+<br/>
+<b>{{ lang.long }}</b>
+<br/>
+<b>{{ lang.author }}</b>
+<br/>
+Comes from:
+{% if scope_set %}
+    <ul>
+    {% for scope in scope_set %}
+        <li>{{ scope.scopeType.name }}<a href="/tocayoapp/scope/{{ scope.id }}/">{{ scope }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No scopes are available.</p>
+{% endif %}

@@ -1,0 +1,40 @@
+<b>{{ idea.name }}</b>
+<br/>
+The idea <b>{{ idea.name }}</b> is used for various names:</b>
+<br/>
+Means:
+{% if meaning_set %}
+    <ul>
+    {% for meaning in meaning_set %}
+        <li><a href="/tocayoapp/meaning/{{ meaning.id }}/">{{ meaning.desig }} {{ meaning.idea.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No meanings are available.</p>
+{% endif %}
+
+{% if onto_child_set %}
+The idea <b>{{ idea.name }}</b> is a subset (more specific) than:
+    <ul>
+    {% for onto in onto_child_set %}
+        <li><a href="/tocayoapp/idea/{{ idea.id }}/">{{ idea.name }}</a> <a href="/tocayoapp/onto/{{ onto.id }}/">&sub;</a> <a href="/tocayoapp/idea/{{ onto.parent.id }}/">{{ onto.parent.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No subs are available.</p>
+{% endif %}
+
+{% if onto_parent_set %}
+The idea <b>{{ idea.name }}</b> is a superset (more general) than:
+    <ul>
+    {% for onto in onto_parent_set %}
+        <li><a href="/tocayoapp/idea/{{ onto.child.id }}/">{{ onto.child.name }}</a> <a href="/tocayoapp/onto/{{ onto.id }}/">&sub;</a> <a href="/tocayoapp/idea/{{ idea.id }}/">{{ idea.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No supers are available.</p>
+{% endif %}
+
+<br/>
+according to:
+<a href="/tocayoapp/author/{{ idea.author.id }}/">{{ idea.author }}</a>

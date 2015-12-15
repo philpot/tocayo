@@ -99,3 +99,16 @@ class Onto(models.Model):
     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
     def __str__(self):
         return str(self.child) + "<<--" + str(self.parent)
+
+# class RelationType(models.Model):
+#     name = models.CharField(max_length=31, unique=True)
+#     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
+#     def __str__(self):
+#         return self.name
+
+# class Related(models.Model):
+#     relationType = models.ForeignKey(RelationType, null=True, on_delete=models.SET_NULL)    
+#     core = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_core_set')
+#     satellite = models.ForeignKey(Desig, null=True, on_delete=models.SET_NULL, related_name='related_satellite_set')
+#     def __str__(self):
+#         return "{}({}, {})".format(self.relationType, self.core, self.satellite)

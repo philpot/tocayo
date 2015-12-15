@@ -18,3 +18,4 @@ admin.site.register(Freq)
 admin.site.register(Idea)
 admin.site.register(Meaning)
 admin.site.register(Onto)
+

@@ -11,11 +11,11 @@ Means:
     <p>No meanings are available.</p>
 {% endif %}
 
-Source:
+Comes from:
 {% if scope_set %}
     <ul>
     {% for scope in scope_set %}
-        <li><a href="/tocayoapp/scope/{{ scope.id }}/">{{ scope.scopeType.name }} = {{ scope.lang.name }}</a></li>
+        <li><a href="/tocayoapp/scope/{{ scope.id }}/">{{ scope.scopeType.name }} {{ scope.scopeType.lang.name }}</a></li>
     {% endfor %}
     </ul>
 {% else %}

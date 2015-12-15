@@ -2,7 +2,7 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import Author, Gender, Token, Desig, Lang, ScopeType, Scope, Utter, Pronounce, Survey, Freq, Idea, Meaning, Onto
+from .models import Author, Gender, Token, Desig, Lang, ScopeType, Scope, Utter, Pronounce, Survey, Freq, Idea, Meaning, Onto, RelType
 
 admin.site.register(Author)
 admin.site.register(Gender)
@@ -18,4 +18,4 @@ admin.site.register(Freq)
 admin.site.register(Idea)
 admin.site.register(Meaning)
 admin.site.register(Onto)
-
+admin.site.register(RelType)

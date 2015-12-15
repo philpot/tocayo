@@ -100,11 +100,11 @@ class Onto(models.Model):
     def __str__(self):
         return str(self.child) + "<<--" + str(self.parent)
 
-# class RelationType(models.Model):
-#     name = models.CharField(max_length=31, unique=True)
-#     author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
-#     def __str__(self):
-#         return self.name
+class RelType(models.Model):
+    name = models.CharField(max_length=31, unique=True)
+    author = models.ForeignKey(Author, null=True, on_delete=models.SET_NULL)
+    def __str__(self):
+        return self.name
 
 # class Related(models.Model):
 #     relationType = models.ForeignKey(RelationType, null=True, on_delete=models.SET_NULL)    

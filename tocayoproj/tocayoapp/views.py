@@ -195,3 +195,16 @@ def onto(request, onto_id):
     except Exception as e:
         return HttpResponse("Not found: {}".format(e))
     return HttpResponse("x Not implemented yet")
+
+# def relType(request, relType_id):
+#     try:
+#         relType = Reltype.objects.get(id=int(relType_id))
+#         rel_set = relType.rel_set.all()
+#         template = loader.get_template('tocayoapp/reltype.html')
+#         params = {'relType': relType,
+#                   'rel_set': rel_set
+#                   }
+#         return HttpResponse(template.render(params, request))
+#     except Exception as e:
+#         return HttpResponse("Not found: {}".format(e))
+#     return HttpResponse("Not implemented yet")

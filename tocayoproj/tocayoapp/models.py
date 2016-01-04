@@ -27,6 +27,12 @@ class Desig(models.Model):
     uid = models.IntegerField(default=1)
     def __str__(self):
         return str(self.token) + " (" + str(self.gender) + ")"
+    def __lt__(self, other):
+        return (self.id < other.id)
+    def evaluable(self):
+        return "Desig.objects.filter(token__name='{}').filter(gender__name='{}')[0]".format(self.token.name, self.gender.name)
+    def mini(self):
+        return "findDesig('{}', '{}')".format(self.token.name, self.gender.name)
 
 class Lang(models.Model):
     name = models.CharField(max_length=47, unique=True)

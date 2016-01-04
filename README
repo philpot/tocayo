@@ -6,3 +6,31 @@ reformulate as namemybaby in Aug 04
 
 revisit 25 Nov 2015 as tocayo
 5 Dec 2015: let's reframe this into Django
+
+I introduced RelType and Rel
+
+I want to say something like Rel(type="cognate")(Anthony/male/EN, Antonio/male/ES)
+Is this a relation between desigs or between scopes?
+
+
+>>> show(s)
+>>> Adam (male): origin=HEB
+id: 300044
+desig:	Adam (male)
+scopeType:   origin
+lang:	     HEB
+author:	     nmb2008incorp
+
+>>> show(d)
+>>> Adam (male)
+scope_set:	[<Scope: Adam (male): origin=HEB>]
+pronounce_set:	[<Pronounce: Adam (male)AE/1 D AH/0 M>]
+freq_set:	[<Freq: Adam (male) SSA-TOP-1000-by-year-M 8801>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 8349>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 8212>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 8127>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 7733>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 7732>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 7667>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 7458>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 6809>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 6750>, <Freq: Adam (male) SSA-TOP-1000-by-year-M 6673>, <Freq: Adam (male) CENSUS2007-M 259>]
+meaning_set:	[<Meaning: Adam (male) mankind>]
+related_core_set:	   []
+related_satellite_set:	   []
+id:			   200042
+token:			   Adam
+gender:			   male
+author:			   nmb2008incorp
+uid:			   1

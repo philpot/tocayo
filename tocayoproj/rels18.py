@@ -5,24 +5,24 @@
 core = findDesig('Aaron', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Aaron', 'M'))
 
-# Abbott (male)
+# Abbott (male)ok
 # father of joy
 core = findDesig('Abbott', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Abbie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Abbott', 'M'))
 
-# Abraham (male)
+# Abraham (male)ok
 # father of a multitude
 core = findDesig('Abraham', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Abe', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Abraham', 'M'))
 
-# Abel (male)
+# Abel (male)ok
 # breath
 core = findDesig('Abel', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Abel', 'M'))
 
-# Abner (male)
+# Abner (male)ok
 # father of light
 core = findDesig('Abner', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Abner', 'M'))
@@ -35,23 +35,22 @@ maybeAddRelation('cognateOf', core, findDesig('Abril', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('April', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Avril', 'F'))
 
-# Absalom (male)
+# Absalom (male)ok
 # my Father is peace
 core = findDesig('Absalom', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Absalom', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Absolom', 'M'))
 
-# Ace (male)
+# Ace (male)ok
 # one
-core = findDesig('Ace', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Ace', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Levi', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Oona', 'F'))
-
-# Ace (male)
 # unity
 core = findDesig('Ace', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ace', 'M'))
+
+# Oona (female)ok
+# one
+core = findDesig('Oona', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Oona', 'F'))
 
 # Adair (male)
 # kind
@@ -63,23 +62,24 @@ maybeAddRelation('cognateOf', core, findDesig('Adele', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Adeline', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Caron', 'F'))
 
-# Adam (male)
+# Adam (male)ok
 # mankind
 core = findDesig('Adam', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Adam', 'M'))
 
-# Addison (male)
+# Addison (male)ok
 # son of Adam
+# should also relate to Adam
 core = findDesig('Addison', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Addison', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Addison', 'M'))
 
-# Adlai (male)
+# Adlai (male)ok
 # God is just
 core = findDesig('Adlai', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Adlai', 'M'))
 
-# Adonai (male)
+# Adonai (male)ok
 # my Lord
 core = findDesig('Adonai', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Adonai', 'M'))
@@ -132,9 +132,10 @@ maybeAddRelation('cognateOf', core, findDesig('Ajax', 'M'))
 core = findDesig('Akiva', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Akiva', 'F'))
 
-# Al (male)
+# Albert (male)
 # bright
-core = findDesig('Al', 'M')
+# noble
+core = findDesig('Albert', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Albert', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alberta', 'F'))
@@ -143,20 +144,30 @@ maybeAddRelation('cognateOf', core, findDesig('Aubrey', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Aubrey', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Bert', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Bertha', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Bob', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Bobby', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Bobby', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Dayton', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Dayton', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Herb', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Herbert', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Iliana', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Phoebe', 'F'))
+
+# Robert (male)
+# bright
+# bright fame
+core = findDesig('Albert', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Rob', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Robert', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Robert', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Roberta', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Rupert', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Bob', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Bobby', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Bobby', 'M'))
+
+# Herbert (male)ok
+# bright
+# ruler
+# army
+core = findDesig('Herbert', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Herb', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Herbert', 'M'))
+
+maybeAddRelation('cognateOf', core, findDesig('Iliana', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Phoebe', 'F'))
 
 # Al (male)
 # noble
@@ -171,7 +182,6 @@ maybeAddRelation('cognateOf', core, findDesig('Albert', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alberta', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alberto', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Aletha', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Alfonso', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alice', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alicia', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alison', 'F'))
@@ -182,7 +192,6 @@ maybeAddRelation('cognateOf', core, findDesig('Allison', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allison', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Ally', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allyson', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Alphonse', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alyson', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Aubrey', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Aubrey', 'M'))
@@ -193,35 +202,80 @@ maybeAddRelation('cognateOf', core, findDesig('Tierney', 'F'))
 
 # Alan (male)
 # fair
+# handsome
 core = findDesig('Alan', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alain', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alan', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Allan', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Allen', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Bianca', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Blanca', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Blanche', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Dwight', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Eavan', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Finn', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Allyn', 'M'))
+
+# Guinevere (female)
+# fair
+# fair-haired
+### split off the Wendys?
+core = findDesig('Guinevere', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Guenevere', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Guinevere', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gwen', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gwendolyn', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gwyn', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Irving', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Isolde', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Rowena', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Wendi', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Wendy', 'F'))
 
-# Alana (female)
+# Findlay (male)
+# blond-haired soldier
+# fair-haired
+# fair
+# Finnish
+core = findDesig('Findlay', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Finn', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Findlay', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Finlay', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Finley', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Fiona', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Fionn', 'F'))
+
+# Rowena (female)
+# fair
+# fair-haired
+# should also relate to Rowan?
+core = findDesig('Rowena', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Rowena', 'F'))
+
+# Isolde (female)ok
+# iron battle
+# fair
+core = findDesig('Isolde', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Isolde', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Iseult', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Isolda', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Ysolt', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Eseld', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Yseult', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Izolda', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Isotta', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Iseut', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Izolda', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Esyllt', 'F'))
+
+# Eavan (female)ok
+# beautiful sheen
+# fair
+core = findDesig('Eavan', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Eavan', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Aoibheann', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Aoibhín', 'F'))
+
+# Alana (female)ok
 # serene
+# should also relate to Alan
+# should also relate to Lana
 core = findDesig('Alana', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Alana', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alanna', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alayna', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Serena', 'F'))
 
 # Alexander (male)ok
 # defender of humanity
@@ -250,61 +304,85 @@ maybeAddRelation('cognateOf', core, findDesig('Xander', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Xandy', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Xandy', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Zander', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 
 # Alexavier (male)ok
 # protector of the new house
 core = findDesig('Alexavier', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alexavier', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 
-# Alfonso (male)
+# Alphonse (male)ok
 # eager
-core = findDesig('Alfonso', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Alfonso', 'M'))
+# noble and ready
+core = findDesig('Alphonse', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alphonse', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Alfonso', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Alonso', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Alonzo', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Lon', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Lonnie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Lonny', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 
 # Alfred (male)ok
 # counselor
 core = findDesig('Alfred', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alfred', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Alfredo', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 
 # Algernon (male)ok
 # bearded
 core = findDesig('Algernon', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Algernon', 'M'))
 
-# Alida (female)
+# Alida (female)ok
 # winged
 core = findDesig('Alida', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Alida', 'F'))
 
 # Alisa (female)
 # rational
+# truth
+# should also relate to Allison
 core = findDesig('Alisa', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Alisa', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alyssa', 'F'))
-
-# Allie (male)
-# truth
-core = findDesig('Allie', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Aletha', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Alissa', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alice', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alicia', 'F'))
+
+# Allison (female)ok
+# rational
+# truth
+# should also relate to Alisa
+# should also relate to Alexander
+core = findDesig('Allison', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alison', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Alissa', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allie', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Allison', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allison', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Aletha', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ally', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Allyson', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alyson', 'F'))
+
+# Earnest (male)ok
+# rational
+core = findDesig('Earnest', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Earnest', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Erna', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ernest', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Ernie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Ernestine', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Ernst', 'M'))
+
+# Veronica (female)ok
+# rational
+core = findDesig('Veronica', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Ronnie', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Ronnie', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Vera', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Verda', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Verdad', 'F'))
@@ -312,34 +390,38 @@ maybeAddRelation('cognateOf', core, findDesig('Verna', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Veronica', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Veronique', 'F'))
 
-# Alma (male)
+# Alma (female)ok
 # soul
 core = findDesig('Alma', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alma', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Alma', 'M'))
 
-# Enid (male)
+# Enid (male)ok
 # soul
 maybeAddRelation('cognateOf', core, findDesig('Enid', 'F'))
 
-# Almira (female)
+# Almira (female)ok
 # of higher birth order
 core = findDesig('Almira', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Almira', 'F'))
 
-# Aloha (female)
+# Aloha (female)ok
 # kind-hearted
-core = findDesig('Aloha', 'F')
-maybeAddRelation('cognateOf', core, findDesig('Aloha', 'F'))
-
-# Aloha (female)
 # loving
 core = findDesig('Aloha', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Aloha', 'F'))
+
+# Caron (female)ok
+# loving
+core = findDesig('Caron', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Caron', 'F'))
+
+# Philomena (female)ok
+# loving
+core = findDesig('Philomena', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Philomena', 'F'))
 
-# Alton (male)
+# Alton (male)ok
 # older
 core = findDesig('Alton', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alton', 'M'))
@@ -347,23 +429,16 @@ maybeAddRelation('cognateOf', core, findDesig('Elden', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Eldon', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Elton', 'M'))
 
-# Alvin (male)
+# Alvin (male)ok
 # light skinned
 core = findDesig('Alvin', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Alvin', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Al', 'M'))
 
-# Amadeus (male)
+# Amadeus (male)ok
 # love of God
 core = findDesig('Amadeus', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Amadeus', 'M'))
-
-# Amalia (female)
-# hard worker
-core = findDesig('Amalia', 'F')
-maybeAddRelation('cognateOf', core, findDesig('Amalia', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Amalie', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Amelia', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Amelie', 'F'))
 
 # Amanda (male)ok
 # worthy of love
@@ -2497,6 +2572,7 @@ maybeAddRelation('cognateOf', core, findDesig('Davis', 'M'))
 core = findDesig('Dawn', 'F')
 
 # Dayton (male)
+# bright
 # sunny town
 core = findDesig('Dayton', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Dayton', 'F'))
@@ -2826,7 +2902,6 @@ maybeAddRelation('cognateOf', core, findDesig('Drew', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Drew', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Dru', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Dru', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Ferdinand', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Hardy', 'M'))
 
 # Dru (male)
@@ -3091,35 +3166,37 @@ maybeAddRelation('cognateOf', core, findDesig('Elvis', 'M'))
 core = findDesig('Emerson', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Emerson', 'M'))
 
-# Emil (male)
+# Emil (male)ok
 # copy
-core = findDesig('Emil', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Emil', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Emilio', 'M'))
-
-# Emil (male)
 # emulate
 core = findDesig('Emil', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Emil', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Emilio', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Emile', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Emil', 'M'))
 
-# Emma (male)
+# Emma (female)ok
 # universal
+# should also relate to Emily
 core = findDesig('Emma', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Emma', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Emma', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Erma', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Irma', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Em', 'F'))
 
-# Emmet (male)
+# Emmet (male)ok
 # strong worker
+# should also relate to Emil
 core = findDesig('Emmet', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Emmet', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Emmett', 'M'))
 
-# Emmy (female)
+# Emily (female)ok
 # admiring
-core = findDesig('Emmy', 'F')
+# hard worker
+# should also relate to Emil
+core = findDesig('Emily', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Amalia', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Amalie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Amelia', 'F'))
@@ -3129,104 +3206,127 @@ maybeAddRelation('cognateOf', core, findDesig('Emilie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Emily', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Emmly', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Emmy', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Em', 'F'))
 
-# Enoch (male)
+# Enoch (male)ok
 # dedicated
 core = findDesig('Enoch', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Enoch', 'M'))
 
-# Enya (female)
+# Enya (female)ok
 # little fire
 core = findDesig('Enya', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Enya', 'F'))
 
-# Erin (male)
+# Erin (male)ok
 # Ireland: nation
 core = findDesig('Erin', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Erin', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Erin', 'M'))
 
-# Eros (male)
+# Eros (male)ok
 # god of love
 core = findDesig('Eros', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Eros', 'M'))
 
-# Errol (male)
+# Errol (male)ok
 # wander
 core = findDesig('Errol', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Errol', 'M'))
 
-# Esmeralda (female)
+# Esmeralda (female)ok
 # emerald: gemstone
 core = findDesig('Esmeralda', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Esmeralda', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Esmerelda', 'F'))
 
-# Esperanza (female)
+# Esperanza (female)ok
 # hope
 core = findDesig('Esperanza', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Esperanza', 'F'))
 
-# Ethan (male)
+# Ethan (male)ok
 # firm
 core = findDesig('Ethan', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Ethan', 'M'))
+
+# Constance (female)ok
+# firm
+core = findDesig('Constance', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Connie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Connie', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Constance', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Constantine', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Ethan', 'M'))
 
-# Eudora (female)
+# Eudora (female)ok
 # honored gift
 core = findDesig('Eudora', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Eudora', 'F'))
 
-# Eulalia (female)
+# Eulalia (female)ok
 # well-spoken
 core = findDesig('Eulalia', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Eulalia', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Eulalie', 'F'))
 
-# Evangeline (female)
+# Evangeline (female)ok
 # good news
 core = findDesig('Evangeline', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Evangeline', 'F'))
 
-# Evelyn (female)
+# Evelyn (female)ok
 # hazelnut
 core = findDesig('Evelyn', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Evelyn', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Evelyn', 'M'))
 
-# Everett (male)
+# Everett (male)ok
 # wild boar
 core = findDesig('Everett', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Everett', 'M'))
 
-# Everly (male)
+# Everly (male)ok
 # grazing meadow
 core = findDesig('Everly', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Everley', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Everly', 'M'))
 
-# Ewan (male)
+# Ewan (male)ok
 # young warrior
 core = findDesig('Ewan', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ewan', 'M'))
+
+# Marcel (male)ok
+# young warrior
+core = findDesig('Marcel', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Marcel', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Marcella', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Marcello', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Marcellus', 'M'))
 
-# Ezra (male)
+# Ezra (male)ok
 # helper
 core = findDesig('Ezra', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Aida', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ezra', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Ophelia', 'F'))
+
+# Socorro (male)ok
+# helper
+core = findDesig('Socorro', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Socorro', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Socorro', 'M'))
 
-# Fabio (male)
+# Aida (male)ok
+# helper
+core = findDesig('Aida', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Aida', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Ada', 'F'))
+
+# Ophelia (female)ok
+# helper
+core = findDesig('Ophelia', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Ophelia', 'F'))
+
+# Fabio (male)ok
 # bean grower
 core = findDesig('Fabio', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fabian', 'M'))
@@ -3235,121 +3335,100 @@ maybeAddRelation('cognateOf', core, findDesig('Fabiano', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Fabienne', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fabio', 'M'))
 
-# Fabrizio (male)
+# Fabrizio (male)ok
 # one with skillful hands
 core = findDesig('Fabrizio', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fabrizio', 'M'))
 
-# Farley (male)
+# Farley (male)ok
 # from the bull pasture
 core = findDesig('Farley', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Farley', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Farley', 'M'))
 
-# Fausto (male)
+# Fausto (male)ok
 # lucky
 core = findDesig('Fausto', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fausta', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Faustine', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fausto', 'M'))
 
-# Fawn (female)
+# Fawn (female)ok
 # young deer
 core = findDesig('Fawn', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Fawn', 'F'))
 
-# Fay (male)
+# Faye (female)ok
 # elf
-core = findDesig('Fay', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Fay', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Fay', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Faye', 'F'))
-
-# Fay (male)
 # fairy
-core = findDesig('Fay', 'M')
+core = findDesig('Faye', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Fay', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fay', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Faye', 'F'))
 
-# Felix (male)
+# Felix (male)ok
 # fortunate
 core = findDesig('Felix', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Felice', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Felicia', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Felicity', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Felix', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Gwyneth', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Phylicia', 'F'))
 
-# Felton (male)
+# Gwyneth (female)ok
+# fortunate
+core = findDesig('Gwyneth', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Gwyneth', 'F'))
+
+# Felton (male)ok
 # town in a field
 core = findDesig('Felton', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Felton', 'M'))
 
-# Feo (male)
+# Feo (male)ok
 # ugly
 core = findDesig('Feo', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Feo', 'M'))
 
-# Fergus (male)
+# Fergus (male)ok
 # manly
 core = findDesig('Fergus', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fergus', 'M'))
 
-# Ferguson (male)
+# Ferguson (male)ok
 # son of Fergus
+# should also relate to Fergus
 core = findDesig('Ferguson', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ferguson', 'M'))
 
-# Fern (female)
+# Fern (female)ok
 # fern: plant species
 core = findDesig('Fern', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Fern', 'F'))
 
-# Fernando (male)
+# Fernando (male)ok
 # adventurous
-core = findDesig('Fernando', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Fernando', 'M'))
-
-# Fernando (male)
 # daring
 core = findDesig('Fernando', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fernando', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Ferdinand', 'M'))
 
-# Ferris (male)
+# Ferris (male)ok
 # iron worker
 core = findDesig('Ferris', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ferris', 'M'))
 
-# Fifi (female)
+# Fifi (female)ok
 # he shall add
 core = findDesig('Fifi', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Fifi', 'F'))
 
-# Finlay (male)
-# blond-haired soldier
-core = findDesig('Finlay', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Findlay', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Finlay', 'M'))
-
-# Finley (male)
+# Sherlock (male)ok
 # fair-haired
-core = findDesig('Finley', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Finley', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Fiona', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Fionn', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Guenevere', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Guinevere', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Gwen', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Gwendolyn', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Gwyn', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Rowena', 'F'))
+core = findDesig('Sherlock', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Sherlock', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Wendi', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Wendy', 'F'))
 
-# Fiorello (male)
+# Fiorello (male)ok
 # flowering
 core = findDesig('Fiorello', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fiorella', 'F'))
@@ -3362,52 +3441,46 @@ maybeAddRelation('cognateOf', core, findDesig('Florida', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Florrie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Flower', 'F'))
 
-# Flannery (male)
+# Flannery (male)ok
 # flat land
 core = findDesig('Flannery', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Flannery', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Flannery', 'M'))
 
-# Fletcher (male)
+# Fletcher (male)ok
 # arrow maker
 core = findDesig('Fletcher', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fletcher', 'M'))
 
-# Flynn (male)
+# Flynn (male)ok
 # heir to the redheaded
 core = findDesig('Flynn', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Flynn', 'M'))
 
-# Forbes (male)
+# Forbes (male)ok
 # prosperous
 core = findDesig('Forbes', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Fiorella', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Fiorello', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Flo', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Flora', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Florence', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Florence', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Florida', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Florrie', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Flower', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Forbes', 'M'))
+
+# Othello (male)ok
+# prosperous
+core = findDesig('Othello', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Othello', 'M'))
 
-# Ford (male)
+# Ford (male)ok
 # river crossing
 core = findDesig('Ford', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ford', 'M'))
 
-# Fountain (male)
+# Fountain (male)ok
 # spring
 core = findDesig('Fountain', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fountain', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fountain', 'M'))
 
-# Fran (male)
+# Francis (male)ok
 # free
-core = findDesig('Fran', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Chico', 'M'))
+core = findDesig('Francis', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Fran', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fran', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Frances', 'F'))
@@ -3422,41 +3495,30 @@ maybeAddRelation('cognateOf', core, findDesig('Frank', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Frank', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Franklin', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Franz', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Paco', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Frankie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Frannie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Fanny', 'M'))
 
-# Frasier (male)
+# Chico (male)ok
+# free
+# should also relate to Francisco
+core = findDesig('Chico', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Chico', 'M'))
+
+# Paco (male)ok
+# free
+# should also relate to Francisco
+core = findDesig('Paco', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Paco', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Paca', 'F'))
+
+# Frasier (male)ok
 # strawberry
 core = findDesig('Frasier', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Frasier', 'M'))
 
-# Fred (male)
+# Fred (male)ok
 # peace
-core = findDesig('Fred', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Federico', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Feleti', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Fred', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Freddy', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Frederica', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Frederick', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Fredrica', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Fredricka', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Frieda', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Fritz', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Fritzi', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Humphrey', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Liv', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Livvy', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Noah', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Olive', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Oliver', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Olivia', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Ollie', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Ollie', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Salome', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Shlomo', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Solomon', 'M'))
-
-# Fred (male)
 # peaceful ruler
 core = findDesig('Fred', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Federico', 'M'))
@@ -3471,32 +3533,45 @@ maybeAddRelation('cognateOf', core, findDesig('Frieda', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Fritz', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Fritzi', 'F'))
 
-# Freja (female)
+# Humphrey (male)ok
+# peaceful ruler
+core = findDesig('Humphrey', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Humphrey', 'M'))
+
+# Solomon (male)ok
+# peaceful ruler
+# shalom
+core = findDesig('Solomon', 'M')
+maybeAddRelation('cognateOf', core, findDesig('Shlomo', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Solomon', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Salome', 'F'))
+
+# Freja (female)ok
 # Freja: mythical goddess of love
+# fertility and beauty
 core = findDesig('Freja', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Freja', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Freya', 'F'))
 
-# French (male)
+# French (male)ok
 # France: nation
 core = findDesig('French', 'M')
 maybeAddRelation('cognateOf', core, findDesig('French', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('French', 'M'))
 
-# Freya (female)
-# fertility and beauty
-core = findDesig('Freya', 'F')
-maybeAddRelation('cognateOf', core, findDesig('Freya', 'F'))
-
-# Freya (female)
+# Aphrodite (female)ok
 # goddess of love
-core = findDesig('Freya', 'F')
+core = findDesig('Aphrodite', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Aphrodite', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Freya', 'F'))
+
+# Venus (female)ok
+# goddess of love
+core = findDesig('Venus', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Venus', 'F'))
 
-# Gabe (male)
+# Gabriel (male)ok
 # hero of God
-core = findDesig('Gabe', 'M')
+core = findDesig('Gabriel', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gabby', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gabe', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Gabi', 'F'))
@@ -3507,13 +3582,13 @@ maybeAddRelation('cognateOf', core, findDesig('Gabriella', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gabrielle', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gaby', 'F'))
 
-# Gael (male)
+# Gael (male)ok
 # Gaelic: language and people group
 core = findDesig('Gael', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gael', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gael', 'M'))
 
-# Gaetan (male)
+# Gaetan (male)ok
 # Gaeta: village in Italy
 core = findDesig('Gaetan', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gaetan', 'M'))
@@ -3521,102 +3596,123 @@ maybeAddRelation('cognateOf', core, findDesig('Gaetana', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gaetane', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gaetano', 'M'))
 
-# Gage (male)
+# Gage (male)ok
 # pawn
 core = findDesig('Gage', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gage', 'M'))
 
-# Gail (male)
+# Abigail (female)ok
 # God is joy
-core = findDesig('Gail', 'M')
+# stranger
+core = findDesig('Abigail', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Abby', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Abigail', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gail', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gail', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Gayle', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Gayle', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Gale', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Gale', 'M'))
 
-# Galahad (male)
+# Galahad (male)ok
 # selfless
 core = findDesig('Galahad', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Galahad', 'M'))
 
-# Gale (male)
+# Barbara (female)ok
 # stranger
-core = findDesig('Gale', 'M')
+core = findDesig('Barbara', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Barb', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Barbara', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Barbara', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Barbie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Barbra', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Gale', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Gale', 'M'))
+
+# Gershom (female)ok
+# stranger
+# exile
+core = findDesig('Gershom', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Gershom', 'M'))
+
+# Wallace (male)ok
+# stranger
+core = findDesig('Wallace', 'F')
 maybeAddRelation('cognateOf', core, findDesig('Wallace', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Wally', 'M'))
 
-# Galen (male)
+# Galen (male)ok
 # calm
+# healer
+# illuminated child
 core = findDesig('Galen', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Galen', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Galeno', 'M'))
+
+# Placido (male)ok
+# calm
+core = findDesig('Placido', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Placido', 'M'))
+
+# Serena (male)ok
+# calm
+core = findDesig('Serena', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Serena', 'F'))
 
-# Galen (male)
+# Jason (male)ok
 # healer
-core = findDesig('Galen', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Althea', 'F'))
-maybeAddRelation('cognateOf', core, findDesig('Galen', 'M'))
+core = findDesig('Jason', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Jason', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Jason', 'M'))
 
-# Galeno (male)
-# illuminated child
-core = findDesig('Galeno', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Galeno', 'M'))
+# Althea (female)ok
+# healer
+core = findDesig('Althea', 'F')
+maybeAddRelation('cognateOf', core, findDesig('Althea', 'F'))
 
-# Gallagher (male)
+# Gallagher (male)ok
 # eager helper
 core = findDesig('Gallagher', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gallagher', 'M'))
 
-# Gamal (male)
+# Gamal (male)ok
 # camel
 core = findDesig('Gamal', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gamal', 'M'))
 
-# Gannon (male)
+# Gannon (male)ok
 # fair-complected
 core = findDesig('Gannon', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gannon', 'M'))
 
-# Gardner (male)
+# Gardner (male)ok
 # gardener
 core = findDesig('Gardner', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Gardner', 'M'))
 
-# Garfield (male)
+# Garfield (male)ok
 # battlefield
 core = findDesig('Garfield', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Garfield', 'M'))
 
-# Garrison (male)
+# Garrison (male)ok
 # troops in battle
+# son of Garrett
+# should also relate to Garrett
 core = findDesig('Garrison', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Garrison', 'M'))
 
-# Garson (male)
+# Garson (male)ok
 # son of Gar
 core = findDesig('Garson', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Garson', 'M'))
 
-# Garth (male)
+# Garth (male)ok
 # garden
 # field
 core = findDesig('Garth', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Garth', 'M'))
 
-# Carmel (male)
+# Carmel (male)ok
 # garden
 maybeAddRelation('cognateOf', core, findDesig('Carmel', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Carmela', 'F'))
@@ -5139,15 +5235,6 @@ maybeAddRelation('cognateOf', core, findDesig('Kenneth', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Kenneth', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Kenny', 'M'))
 
-# Alan (male)ok
-# handsome
-core = findDesig('Kenneth', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Alain', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Alan', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Allan', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Allen', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Allyn', 'M'))
-
 # Beau (male)ok
 # handsome
 core = findDesig('Beau', 'M')
@@ -5161,6 +5248,8 @@ maybeAddRelation('cognateOf', core, findDesig('Cullen', 'M'))
 
 # Irving (male)ok
 # handsome
+# green water
+# fair
 core = findDesig('Irving', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Irving', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Irv', 'M'))
@@ -5279,13 +5368,6 @@ maybeAddRelation('cognateOf', core, findDesig('Kim', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Kimberly', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Kimberly', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Kimmy', 'F'))
-
-# Herbert (male)ok
-# ruler
-# army
-core = findDesig('Herbert', 'M')
-maybeAddRelation('cognateOf', core, findDesig('Herb', 'M'))
-maybeAddRelation('cognateOf', core, findDesig('Herbert', 'M'))
 
 # Kimball (male)ok
 # leader of the warriors
@@ -5415,8 +5497,9 @@ maybeAddRelation('cognateOf', core, findDesig('Kylene', 'F'))
 core = findDesig('Laban', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Laban', 'M'))
 
-# Bianca (male)ok
+# Bianca (female)ok
 # white
+# fair
 core = findDesig('Bianca', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Bianca', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Blanca', 'F'))
@@ -5424,6 +5507,7 @@ maybeAddRelation('cognateOf', core, findDesig('Blanche', 'F'))
 
 # Dwight (male)ok
 # white
+# fair
 core = findDesig('Dwight', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Dwight', 'M'))
 
@@ -5693,6 +5777,7 @@ maybeAddRelation('cognateOf', core, findDesig('Letitia', 'F'))
 
 # Levi (male)
 # united
+# one
 core = findDesig('Levi', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Levi', 'M'))
 
@@ -6849,6 +6934,7 @@ maybeAddRelation('cognateOf', core, findDesig('Nita', 'F'))
 
 # Noah (male)ok
 # rest
+# peaceful ruler
 core = findDesig('Noah', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Noah', 'M'))
 
@@ -7000,6 +7086,13 @@ maybeAddRelation('cognateOf', core, findDesig('Oliver', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Olivia', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ollie', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ollie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Olive', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Oliver', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Olivia', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Ollie', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Ollie', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Liv', 'F'))
+maybeAddRelation('cognateOf', core, findDesig('Livvy', 'F'))
 
 # Olympia (female)ok
 # mountain of the gods
@@ -7742,6 +7835,8 @@ maybeAddRelation('cognateOf', core, findDesig('Reynold', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Ron', 'M'))
 maybeAddRelation('cognateOf', core, findDesig('Ronald', 'F'))
 maybeAddRelation('cognateOf', core, findDesig('Ronald', 'M'))
+maybeAddRelation('cognateOf', core, findDesig('Ronnie', 'M'))
+
 
 # Ronda (female)
 # grand
@@ -7798,6 +7893,7 @@ core = findDesig('Ross', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Ross', 'M'))
 
 # Rowan (male)
+# red-haired
 # rowan: tree species
 core = findDesig('Rowan', 'M')
 maybeAddRelation('cognateOf', core, findDesig('Rowan', 'F'))
